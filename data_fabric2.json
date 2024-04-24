@@ -1,0 +1,6023 @@
+{
+ "name": "Talend Data Fabric",
+ "children": [
+  {
+   "name": "",
+   "children": []
+  },
+  {
+   "name": "Authentication",
+   "children": [
+    {
+     "name": "tSetKeystore",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "AWS",
+   "children": [
+    {
+     "name": "cAWSConnection",
+     "value": 5
+    },
+    {
+     "name": "cAWSS3",
+     "value": 5
+    },
+    {
+     "name": "cAWSSES",
+     "value": 5
+    },
+    {
+     "name": "cAWSSNS",
+     "value": 5
+    },
+    {
+     "name": "cAWSSQS",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Big Data",
+   "children": [
+    {
+     "name": "tBigQueryBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tBigQueryInput",
+     "value": 5
+    },
+    {
+     "name": "tBigQueryOutput",
+     "value": 5
+    },
+    {
+     "name": "tBigQueryOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tBigQuerySQLRow",
+     "value": 5
+    },
+    {
+     "name": "tCassandraBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tCassandraClose",
+     "value": 5
+    },
+    {
+     "name": "tCassandraConnection",
+     "value": 5
+    },
+    {
+     "name": "tCassandraInput",
+     "value": 5
+    },
+    {
+     "name": "tCassandraOutput",
+     "value": 5
+    },
+    {
+     "name": "tCassandraOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tCassandraOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tCassandraRow",
+     "value": 5
+    },
+    {
+     "name": "tCouchDBClose",
+     "value": 5
+    },
+    {
+     "name": "tCouchDBConnection",
+     "value": 5
+    },
+    {
+     "name": "tCouchDBInput",
+     "value": 5
+    },
+    {
+     "name": "tCouchDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tDBFSConnection",
+     "value": 5
+    },
+    {
+     "name": "tDBFSGet",
+     "value": 5
+    },
+    {
+     "name": "tDBFSPut",
+     "value": 5
+    },
+    {
+     "name": "tDynamoDBInput",
+     "value": 5
+    },
+    {
+     "name": "tDynamoDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tGSBucketCreate",
+     "value": 5
+    },
+    {
+     "name": "tGSBucketDelete",
+     "value": 5
+    },
+    {
+     "name": "tGSBucketExist",
+     "value": 5
+    },
+    {
+     "name": "tGSBucketList",
+     "value": 5
+    },
+    {
+     "name": "tGSClose",
+     "value": 5
+    },
+    {
+     "name": "tGSConnection",
+     "value": 5
+    },
+    {
+     "name": "tGSCopy",
+     "value": 5
+    },
+    {
+     "name": "tGSDelete",
+     "value": 5
+    },
+    {
+     "name": "tGSGet",
+     "value": 5
+    },
+    {
+     "name": "tGSList",
+     "value": 5
+    },
+    {
+     "name": "tGSPut",
+     "value": 5
+    },
+    {
+     "name": "tHBaseClose",
+     "value": 5
+    },
+    {
+     "name": "tHBaseConnection",
+     "value": 5
+    },
+    {
+     "name": "tHBaseInput",
+     "value": 5
+    },
+    {
+     "name": "tHBaseOutput",
+     "value": 5
+    },
+    {
+     "name": "tHCatalogInput",
+     "value": 5
+    },
+    {
+     "name": "tHCatalogLoad",
+     "value": 5
+    },
+    {
+     "name": "tHCatalogOperation",
+     "value": 5
+    },
+    {
+     "name": "tHCatalogOutput",
+     "value": 5
+    },
+    {
+     "name": "tHDFSCompare",
+     "value": 5
+    },
+    {
+     "name": "tHDFSConnection",
+     "value": 5
+    },
+    {
+     "name": "tHDFSCopy",
+     "value": 5
+    },
+    {
+     "name": "tHDFSDelete",
+     "value": 5
+    },
+    {
+     "name": "tHDFSExist",
+     "value": 5
+    },
+    {
+     "name": "tHDFSGet",
+     "value": 5
+    },
+    {
+     "name": "tHDFSInput",
+     "value": 5
+    },
+    {
+     "name": "tHDFSList",
+     "value": 5
+    },
+    {
+     "name": "tHDFSOutput",
+     "value": 5
+    },
+    {
+     "name": "tHDFSOutputRaw",
+     "value": 5
+    },
+    {
+     "name": "tHDFSProperties",
+     "value": 5
+    },
+    {
+     "name": "tHDFSPut",
+     "value": 5
+    },
+    {
+     "name": "tHDFSRename",
+     "value": 5
+    },
+    {
+     "name": "tHDFSRowCount",
+     "value": 5
+    },
+    {
+     "name": "tHiveClose",
+     "value": 5
+    },
+    {
+     "name": "tHiveConnection",
+     "value": 5
+    },
+    {
+     "name": "tHiveCreateTable",
+     "value": 5
+    },
+    {
+     "name": "tHiveInput",
+     "value": 5
+    },
+    {
+     "name": "tHiveLoad",
+     "value": 5
+    },
+    {
+     "name": "tHiveRow",
+     "value": 5
+    },
+    {
+     "name": "tImpalaClose",
+     "value": 5
+    },
+    {
+     "name": "tImpalaConnection",
+     "value": 5
+    },
+    {
+     "name": "tImpalaCreateTable",
+     "value": 5
+    },
+    {
+     "name": "tImpalaInput",
+     "value": 5
+    },
+    {
+     "name": "tImpalaLoad",
+     "value": 5
+    },
+    {
+     "name": "tImpalaOutput",
+     "value": 5
+    },
+    {
+     "name": "tImpalaRow",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBClose",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBConnection",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBInput",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tMapRStreamsConnection",
+     "value": 5
+    },
+    {
+     "name": "tMarkLogicBulkLoad",
+     "value": 5
+    },
+    {
+     "name": "tMarkLogicClose",
+     "value": 5
+    },
+    {
+     "name": "tMarkLogicConnection",
+     "value": 5
+    },
+    {
+     "name": "tMarkLogicInput",
+     "value": 5
+    },
+    {
+     "name": "tMarkLogicOutput",
+     "value": 5
+    },
+    {
+     "name": "tMemSQLClose",
+     "value": 5
+    },
+    {
+     "name": "tMemSQLConnection",
+     "value": 5
+    },
+    {
+     "name": "tMemSQLInput",
+     "value": 5
+    },
+    {
+     "name": "tMemSQLOutput",
+     "value": 5
+    },
+    {
+     "name": "tMemSQLRow",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBBulkLoad",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBClose",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBConnection",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBGridFSDelete",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBGridFSGet",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBGridFSList",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBGridFSProperties",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBGridFSPut",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBInput",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBRow",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jBatchOutput",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jBatchOutputRelationship",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jBatchSchema",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jClose",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jConnection",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jImportTool",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jInput",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jOutput",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jOutputRelationship",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jRow",
+     "value": 5
+    },
+    {
+     "name": "tPigAggregate",
+     "value": 5
+    },
+    {
+     "name": "tPigCode",
+     "value": 5
+    },
+    {
+     "name": "tPigCoGroup",
+     "value": 5
+    },
+    {
+     "name": "tPigCross",
+     "value": 5
+    },
+    {
+     "name": "tPigDistinct",
+     "value": 5
+    },
+    {
+     "name": "tPigFilterColumns",
+     "value": 5
+    },
+    {
+     "name": "tPigFilterRow",
+     "value": 5
+    },
+    {
+     "name": "tPigJoin",
+     "value": 5
+    },
+    {
+     "name": "tPigLoad",
+     "value": 5
+    },
+    {
+     "name": "tPigMap",
+     "value": 5
+    },
+    {
+     "name": "tPigReplicate",
+     "value": 5
+    },
+    {
+     "name": "tPigSort",
+     "value": 5
+    },
+    {
+     "name": "tPigStoreResult",
+     "value": 5
+    },
+    {
+     "name": "tRiakBucketList",
+     "value": 5
+    },
+    {
+     "name": "tRiakClose",
+     "value": 5
+    },
+    {
+     "name": "tRiakConnection",
+     "value": 5
+    },
+    {
+     "name": "tRiakInput",
+     "value": 5
+    },
+    {
+     "name": "tRiakKeyList",
+     "value": 5
+    },
+    {
+     "name": "tRiakOutput",
+     "value": 5
+    },
+    {
+     "name": "tSqoopExport",
+     "value": 5
+    },
+    {
+     "name": "tSqoopImport",
+     "value": 5
+    },
+    {
+     "name": "tSqoopImportAllTables",
+     "value": 5
+    },
+    {
+     "name": "tSqoopMerge",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Business",
+   "children": [
+    {
+     "name": "tBonitaDeploy",
+     "value": 5
+    },
+    {
+     "name": "tBonitaInstantiateProcess",
+     "value": 5
+    },
+    {
+     "name": "tCentricCRMInput",
+     "value": 5
+    },
+    {
+     "name": "tCentricCRMOutput",
+     "value": 5
+    },
+    {
+     "name": "tJIRAInput",
+     "value": 5
+    },
+    {
+     "name": "tJIRAOutput",
+     "value": 5
+    },
+    {
+     "name": "tMarketoBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tMarketoCampaign",
+     "value": 5
+    },
+    {
+     "name": "tMarketoConnection",
+     "value": 5
+    },
+    {
+     "name": "tMarketoInput",
+     "value": 5
+    },
+    {
+     "name": "tMarketoListOperation",
+     "value": 5
+    },
+    {
+     "name": "tMarketoOutput",
+     "value": 5
+    },
+    {
+     "name": "tMicrosoftCrmInput",
+     "value": 5
+    },
+    {
+     "name": "tMicrosoftCrmOutput",
+     "value": 5
+    },
+    {
+     "name": "tMSAXInput",
+     "value": 5
+    },
+    {
+     "name": "tMSAXOutput",
+     "value": 5
+    },
+    {
+     "name": "tNetsuiteConnection",
+     "value": 5
+    },
+    {
+     "name": "tNetsuiteInput",
+     "value": 5
+    },
+    {
+     "name": "tNetsuiteOutput",
+     "value": 5
+    },
+    {
+     "name": "tOpenbravoERPInput",
+     "value": 5
+    },
+    {
+     "name": "tOpenbravoERPOutput",
+     "value": 5
+    },
+    {
+     "name": "tSageX3Input",
+     "value": 5
+    },
+    {
+     "name": "tSageX3Output",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceConnection",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceEinsteinBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceEinsteinOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceGetDeleted",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceGetServerTimestamp",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceGetUpdated",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceInput",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceOutput",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSAPADSOInput",
+     "value": 5
+    },
+    {
+     "name": "tSAPBapi",
+     "value": 5
+    },
+    {
+     "name": "tSAPBWInput",
+     "value": 5
+    },
+    {
+     "name": "tSAPCommit",
+     "value": 5
+    },
+    {
+     "name": "tSAPConnection",
+     "value": 5
+    },
+    {
+     "name": "tSAPDataSourceOutput",
+     "value": 5
+    },
+    {
+     "name": "tSAPDataSourceReceiver",
+     "value": 5
+    },
+    {
+     "name": "tSAPDSOInput",
+     "value": 5
+    },
+    {
+     "name": "tSAPDSOOutput",
+     "value": 5
+    },
+    {
+     "name": "tSAPIDocInput",
+     "value": 5
+    },
+    {
+     "name": "tSAPIDocOutput",
+     "value": 5
+    },
+    {
+     "name": "tSAPIDocReceiver",
+     "value": 5
+    },
+    {
+     "name": "tSAPInfoCubeInput",
+     "value": 5
+    },
+    {
+     "name": "tSAPInfoObjectInput",
+     "value": 5
+    },
+    {
+     "name": "tSAPInfoObjectOutput",
+     "value": 5
+    },
+    {
+     "name": "tSAPODPInput",
+     "value": 5
+    },
+    {
+     "name": "tSAPRollback",
+     "value": 5
+    },
+    {
+     "name": "tSAPTableInput",
+     "value": 5
+    },
+    {
+     "name": "tServiceNowConnection",
+     "value": 5
+    },
+    {
+     "name": "tServiceNowInput",
+     "value": 5
+    },
+    {
+     "name": "tServiceNowOutput",
+     "value": 5
+    },
+    {
+     "name": "tSugarCRMInput",
+     "value": 5
+    },
+    {
+     "name": "tSugarCRMOutput",
+     "value": 5
+    },
+    {
+     "name": "tVtigerCRMInput",
+     "value": 5
+    },
+    {
+     "name": "tVtigerCRMOutput",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Business Intelligence",
+   "children": [
+    {
+     "name": "tBarChart",
+     "value": 5
+    },
+    {
+     "name": "tDB2SCD",
+     "value": 5
+    },
+    {
+     "name": "tDB2SCDELT",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumSCD",
+     "value": 5
+    },
+    {
+     "name": "tInformixSCD",
+     "value": 5
+    },
+    {
+     "name": "tIngresSCD",
+     "value": 5
+    },
+    {
+     "name": "tJasperOutput",
+     "value": 5
+    },
+    {
+     "name": "tJasperOutputExec",
+     "value": 5
+    },
+    {
+     "name": "tJDBCSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tLineChart",
+     "value": 5
+    },
+    {
+     "name": "tMondrianInput",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlSCD",
+     "value": 5
+    },
+    {
+     "name": "tMysqlSCD",
+     "value": 5
+    },
+    {
+     "name": "tMysqlSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaSCD",
+     "value": 5
+    },
+    {
+     "name": "tOracleSCD",
+     "value": 5
+    },
+    {
+     "name": "tOracleSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tPaloCheckElements",
+     "value": 5
+    },
+    {
+     "name": "tPaloClose",
+     "value": 5
+    },
+    {
+     "name": "tPaloConnection",
+     "value": 5
+    },
+    {
+     "name": "tPaloCube",
+     "value": 5
+    },
+    {
+     "name": "tPaloCubeList",
+     "value": 5
+    },
+    {
+     "name": "tPaloDatabase",
+     "value": 5
+    },
+    {
+     "name": "tPaloDatabaseList",
+     "value": 5
+    },
+    {
+     "name": "tPaloDimension",
+     "value": 5
+    },
+    {
+     "name": "tPaloDimensionList",
+     "value": 5
+    },
+    {
+     "name": "tPaloInputMulti",
+     "value": 5
+    },
+    {
+     "name": "tPaloOutput",
+     "value": 5
+    },
+    {
+     "name": "tPaloOutputMulti",
+     "value": 5
+    },
+    {
+     "name": "tPaloRule",
+     "value": 5
+    },
+    {
+     "name": "tPaloRuleList",
+     "value": 5
+    },
+    {
+     "name": "tParAccelSCD",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusSCD",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlSCD",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tSplunkEventCollector",
+     "value": 5
+    },
+    {
+     "name": "tSPSSInput",
+     "value": 5
+    },
+    {
+     "name": "tSPSSOutput",
+     "value": 5
+    },
+    {
+     "name": "tSPSSProperties",
+     "value": 5
+    },
+    {
+     "name": "tSPSSStructure",
+     "value": 5
+    },
+    {
+     "name": "tSybaseSCD",
+     "value": 5
+    },
+    {
+     "name": "tSybaseSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tTeradataSCD",
+     "value": 5
+    },
+    {
+     "name": "tTeradataSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tVerticaSCD",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Cloud",
+   "children": [
+    {
+     "name": "tAmazonAuroraClose",
+     "value": 5
+    },
+    {
+     "name": "tAmazonAuroraCommit",
+     "value": 5
+    },
+    {
+     "name": "tAmazonAuroraConnection",
+     "value": 5
+    },
+    {
+     "name": "tAmazonAuroraInput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonAuroraOutput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonAuroraRollback",
+     "value": 5
+    },
+    {
+     "name": "tAmazonEMRListInstances",
+     "value": 5
+    },
+    {
+     "name": "tAmazonEMRManage",
+     "value": 5
+    },
+    {
+     "name": "tAmazonEMRResize",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlClose",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlCommit",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlConnection",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlInput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlOutput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlRollback",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlRow",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleClose",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleCommit",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleConnection",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleInput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleOutput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleRollback",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleRow",
+     "value": 5
+    },
+    {
+     "name": "tAmazonRedshiftManage",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageConnection",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageContainerCreate",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageContainerDelete",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageContainerExist",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageContainerList",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageDelete",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageGet",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageInputTable",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageList",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageOutputTable",
+     "value": 5
+    },
+    {
+     "name": "tAzureStoragePut",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageQueueCreate",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageQueueDelete",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageQueueInput",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageQueueInputLoop",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageQueueList",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageQueueOutput",
+     "value": 5
+    },
+    {
+     "name": "tAzureStorageQueuePurge",
+     "value": 5
+    },
+    {
+     "name": "tBoxConnection",
+     "value": 5
+    },
+    {
+     "name": "tBoxCopy",
+     "value": 5
+    },
+    {
+     "name": "tBoxDelete",
+     "value": 5
+    },
+    {
+     "name": "tBoxGet",
+     "value": 5
+    },
+    {
+     "name": "tBoxList",
+     "value": 5
+    },
+    {
+     "name": "tBoxPut",
+     "value": 5
+    },
+    {
+     "name": "tCloudStart",
+     "value": 5
+    },
+    {
+     "name": "tCloudStop",
+     "value": 5
+    },
+    {
+     "name": "tCosmosDBBulkLoad",
+     "value": 5
+    },
+    {
+     "name": "tCosmosDBConnection",
+     "value": 5
+    },
+    {
+     "name": "tCosmosDBInput",
+     "value": 5
+    },
+    {
+     "name": "tCosmosDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tCosmosDBRow",
+     "value": 5
+    },
+    {
+     "name": "tDropboxConnection",
+     "value": 5
+    },
+    {
+     "name": "tDropboxDelete",
+     "value": 5
+    },
+    {
+     "name": "tDropboxGet",
+     "value": 5
+    },
+    {
+     "name": "tDropboxList",
+     "value": 5
+    },
+    {
+     "name": "tDropboxPut",
+     "value": 5
+    },
+    {
+     "name": "tGoogleDataprocManage",
+     "value": 5
+    },
+    {
+     "name": "tGoogleDriveConnection",
+     "value": 5
+    },
+    {
+     "name": "tGoogleDriveCopy",
+     "value": 5
+    },
+    {
+     "name": "tGoogleDriveCreate",
+     "value": 5
+    },
+    {
+     "name": "tGoogleDriveDelete",
+     "value": 5
+    },
+    {
+     "name": "tGoogleDriveGet",
+     "value": 5
+    },
+    {
+     "name": "tGoogleDriveList",
+     "value": 5
+    },
+    {
+     "name": "tGoogleDrivePut",
+     "value": 5
+    },
+    {
+     "name": "tGSBucketCreate",
+     "value": 5
+    },
+    {
+     "name": "tGSBucketDelete",
+     "value": 5
+    },
+    {
+     "name": "tGSBucketExist",
+     "value": 5
+    },
+    {
+     "name": "tGSBucketList",
+     "value": 5
+    },
+    {
+     "name": "tGSClose",
+     "value": 5
+    },
+    {
+     "name": "tGSConnection",
+     "value": 5
+    },
+    {
+     "name": "tGSCopy",
+     "value": 5
+    },
+    {
+     "name": "tGSDelete",
+     "value": 5
+    },
+    {
+     "name": "tGSGet",
+     "value": 5
+    },
+    {
+     "name": "tGSList",
+     "value": 5
+    },
+    {
+     "name": "tGSPut",
+     "value": 5
+    },
+    {
+     "name": "tMarketoBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tMarketoCampaign",
+     "value": 5
+    },
+    {
+     "name": "tMarketoConnection",
+     "value": 5
+    },
+    {
+     "name": "tMarketoInput",
+     "value": 5
+    },
+    {
+     "name": "tMarketoListOperation",
+     "value": 5
+    },
+    {
+     "name": "tMarketoOutput",
+     "value": 5
+    },
+    {
+     "name": "tNetsuiteInput",
+     "value": 5
+    },
+    {
+     "name": "tNetsuiteOutput",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftClose",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftCommit",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftConnection",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftInput",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftOutput",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftRollback",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftRow",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftUnload",
+     "value": 5
+    },
+    {
+     "name": "tS3BucketCreate",
+     "value": 5
+    },
+    {
+     "name": "tS3BucketDelete",
+     "value": 5
+    },
+    {
+     "name": "tS3BucketExist",
+     "value": 5
+    },
+    {
+     "name": "tS3BucketList",
+     "value": 5
+    },
+    {
+     "name": "tS3Close",
+     "value": 5
+    },
+    {
+     "name": "tS3Connection",
+     "value": 5
+    },
+    {
+     "name": "tS3Copy",
+     "value": 5
+    },
+    {
+     "name": "tS3Delete",
+     "value": 5
+    },
+    {
+     "name": "tS3Get",
+     "value": 5
+    },
+    {
+     "name": "tS3List",
+     "value": 5
+    },
+    {
+     "name": "tS3Put",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceConnection",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceEinsteinBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceEinsteinOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceGetDeleted",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceGetServerTimestamp",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceGetUpdated",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceInput",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceOutput",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tSalesforceOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tServiceNowConnection",
+     "value": 5
+    },
+    {
+     "name": "tServiceNowInput",
+     "value": 5
+    },
+    {
+     "name": "tServiceNowOutput",
+     "value": 5
+    },
+    {
+     "name": "tSnowflakeBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSnowflakeClose",
+     "value": 5
+    },
+    {
+     "name": "tSnowflakeConnection",
+     "value": 5
+    },
+    {
+     "name": "tSnowflakeInput",
+     "value": 5
+    },
+    {
+     "name": "tSnowflakeOutput",
+     "value": 5
+    },
+    {
+     "name": "tSnowflakeOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tSnowflakeOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSnowflakeRow",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHClose",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHCommit",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHConnection",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHInput",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHOutput",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHRollback",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHRow",
+     "value": 5
+    },
+    {
+     "name": "tSQSConnection",
+     "value": 5
+    },
+    {
+     "name": "tSQSInput",
+     "value": 5
+    },
+    {
+     "name": "tSQSMessageChangeVisibility",
+     "value": 5
+    },
+    {
+     "name": "tSQSMessageDelete",
+     "value": 5
+    },
+    {
+     "name": "tSQSOutput",
+     "value": 5
+    },
+    {
+     "name": "tSQSQueueAttributes",
+     "value": 5
+    },
+    {
+     "name": "tSQSQueueCreate",
+     "value": 5
+    },
+    {
+     "name": "tSQSQueueDelete",
+     "value": 5
+    },
+    {
+     "name": "tSQSQueueList",
+     "value": 5
+    },
+    {
+     "name": "tSQSQueuePurge",
+     "value": 5
+    },
+    {
+     "name": "tSugarCRMInput",
+     "value": 5
+    },
+    {
+     "name": "tSugarCRMOutput",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Connectivity",
+   "children": [
+    {
+     "name": "cAMQP",
+     "value": 5
+    },
+    {
+     "name": "cAWSConnection",
+     "value": 5
+    },
+    {
+     "name": "cAWSS3",
+     "value": 5
+    },
+    {
+     "name": "cAWSSES",
+     "value": 5
+    },
+    {
+     "name": "cAWSSNS",
+     "value": 5
+    },
+    {
+     "name": "cAWSSQS",
+     "value": 5
+    },
+    {
+     "name": "cFile",
+     "value": 5
+    },
+    {
+     "name": "cFtp",
+     "value": 5
+    },
+    {
+     "name": "cHttp",
+     "value": 5
+    },
+    {
+     "name": "cJMS",
+     "value": 5
+    },
+    {
+     "name": "cKafka",
+     "value": 5
+    },
+    {
+     "name": "cMail",
+     "value": 5
+    },
+    {
+     "name": "cMQConnectionFactory",
+     "value": 5
+    },
+    {
+     "name": "cMQTT",
+     "value": 5
+    },
+    {
+     "name": "cREST",
+     "value": 5
+    },
+    {
+     "name": "cSOAP",
+     "value": 5
+    },
+    {
+     "name": "cWMQ",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Core",
+   "children": [
+    {
+     "name": "cDirect",
+     "value": 5
+    },
+    {
+     "name": "cDirectVM",
+     "value": 5
+    },
+    {
+     "name": "cExchangePattern",
+     "value": 5
+    },
+    {
+     "name": "cJavaDSLProcessor",
+     "value": 5
+    },
+    {
+     "name": "cMessagingEndpoint",
+     "value": 5
+    },
+    {
+     "name": "cSEDA",
+     "value": 5
+    },
+    {
+     "name": "cSetBody",
+     "value": 5
+    },
+    {
+     "name": "cSetHeader",
+     "value": 5
+    },
+    {
+     "name": "cSetProperty",
+     "value": 5
+    },
+    {
+     "name": "cVM",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Custom",
+   "children": [
+    {
+     "name": "cBean",
+     "value": 5
+    },
+    {
+     "name": "cBeanRegister",
+     "value": 5
+    },
+    {
+     "name": "cConfig",
+     "value": 5
+    },
+    {
+     "name": "cProcessor",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Custom Code",
+   "children": [
+    {
+     "name": "tGroovy",
+     "value": 5
+    },
+    {
+     "name": "tGroovyFile",
+     "value": 5
+    },
+    {
+     "name": "tJava",
+     "value": 5
+    },
+    {
+     "name": "tJavaFlex",
+     "value": 5
+    },
+    {
+     "name": "tJavaMR",
+     "value": 5
+    },
+    {
+     "name": "tJavaRow",
+     "value": 5
+    },
+    {
+     "name": "tJavaStorm",
+     "value": 5
+    },
+    {
+     "name": "tLibraryLoad",
+     "value": 5
+    },
+    {
+     "name": "tSetDynamicSchema",
+     "value": 5
+    },
+    {
+     "name": "tSetGlobalVar",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Data Quality",
+   "children": [
+    {
+     "name": "tAddCRCRow",
+     "value": 5
+    },
+    {
+     "name": "tAddressRowCloud",
+     "value": 5
+    },
+    {
+     "name": "tBatchAddressRowCloud",
+     "value": 5
+    },
+    {
+     "name": "tBlockedFuzzyJoin",
+     "value": 5
+    },
+    {
+     "name": "tChangeFileEncoding",
+     "value": 5
+    },
+    {
+     "name": "tDataDecrypt",
+     "value": 5
+    },
+    {
+     "name": "tDataEncrypt",
+     "value": 5
+    },
+    {
+     "name": "tDataMasking",
+     "value": 5
+    },
+    {
+     "name": "tDataShuffling",
+     "value": 5
+    },
+    {
+     "name": "tDataUnmasking",
+     "value": 5
+    },
+    {
+     "name": "tDqReportRun",
+     "value": 5
+    },
+    {
+     "name": "tDuplicateRow",
+     "value": 5
+    },
+    {
+     "name": "tExtractRegexFields",
+     "value": 5
+    },
+    {
+     "name": "tFindRegexlibExpressions",
+     "value": 5
+    },
+    {
+     "name": "tFirstnameMatch",
+     "value": 5
+    },
+    {
+     "name": "tFuzzyJoin",
+     "value": 5
+    },
+    {
+     "name": "tFuzzyMatch",
+     "value": 5
+    },
+    {
+     "name": "tFuzzyUniqRow",
+     "value": 5
+    },
+    {
+     "name": "tGenKey",
+     "value": 5
+    },
+    {
+     "name": "tGoogleAddressRow",
+     "value": 5
+    },
+    {
+     "name": "tGoogleGeocoder",
+     "value": 5
+    },
+    {
+     "name": "tGoogleMapLookup",
+     "value": 5
+    },
+    {
+     "name": "tIntervalMatch",
+     "value": 5
+    },
+    {
+     "name": "tJapaneseNumberNormalize",
+     "value": 5
+    },
+    {
+     "name": "tJapaneseTokenize",
+     "value": 5
+    },
+    {
+     "name": "tJapaneseTransliterate",
+     "value": 5
+    },
+    {
+     "name": "tLastRegexlibExpressions",
+     "value": 5
+    },
+    {
+     "name": "tLoqateAddressRow",
+     "value": 5
+    },
+    {
+     "name": "tMatchGroup",
+     "value": 5
+    },
+    {
+     "name": "tMatchIndex",
+     "value": 5
+    },
+    {
+     "name": "tMatchIndexPredict",
+     "value": 5
+    },
+    {
+     "name": "tMatchModel",
+     "value": 5
+    },
+    {
+     "name": "tMatchPairing",
+     "value": 5
+    },
+    {
+     "name": "tMatchPredict",
+     "value": 5
+    },
+    {
+     "name": "tMelissaDataAddress",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlInvalidRows",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlValidRows",
+     "value": 5
+    },
+    {
+     "name": "tMultiPatternCheck",
+     "value": 5
+    },
+    {
+     "name": "tMySQLInvalidRows",
+     "value": 5
+    },
+    {
+     "name": "tMySQLValidRows",
+     "value": 5
+    },
+    {
+     "name": "tOracleInvalidRows",
+     "value": 5
+    },
+    {
+     "name": "tOracleValidRows",
+     "value": 5
+    },
+    {
+     "name": "tPatternCheck",
+     "value": 5
+    },
+    {
+     "name": "tPatternExtract",
+     "value": 5
+    },
+    {
+     "name": "tPatternMasking",
+     "value": 5
+    },
+    {
+     "name": "tPatternUnmasking",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlInvalidRows",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlValidRows",
+     "value": 5
+    },
+    {
+     "name": "tQASAddressIncomplete",
+     "value": 5
+    },
+    {
+     "name": "tQASAddressRow",
+     "value": 5
+    },
+    {
+     "name": "tQASAddressUnknown",
+     "value": 5
+    },
+    {
+     "name": "tQASAddressVerified",
+     "value": 5
+    },
+    {
+     "name": "tQASBatchAddressRow",
+     "value": 5
+    },
+    {
+     "name": "tRecordMatching",
+     "value": 5
+    },
+    {
+     "name": "tReplaceList",
+     "value": 5
+    },
+    {
+     "name": "tReservoirSampling",
+     "value": 5
+    },
+    {
+     "name": "tRuleSurvivorship",
+     "value": 5
+    },
+    {
+     "name": "tSchemaComplianceCheck",
+     "value": 5
+    },
+    {
+     "name": "tStandardizePhoneNumber",
+     "value": 5
+    },
+    {
+     "name": "tStandardizeRow",
+     "value": 5
+    },
+    {
+     "name": "tStem",
+     "value": 5
+    },
+    {
+     "name": "tSurviveFields",
+     "value": 5
+    },
+    {
+     "name": "tSynonymOutput",
+     "value": 5
+    },
+    {
+     "name": "tSynonymSearch",
+     "value": 5
+    },
+    {
+     "name": "tThresholdViolationAlert",
+     "value": 5
+    },
+    {
+     "name": "tTransliterate",
+     "value": 5
+    },
+    {
+     "name": "tUniqRow",
+     "value": 5
+    },
+    {
+     "name": "tUniservBTGeneric",
+     "value": 5
+    },
+    {
+     "name": "tUniservRTConvertName",
+     "value": 5
+    },
+    {
+     "name": "tUniservRTMailBulk",
+     "value": 5
+    },
+    {
+     "name": "tUniservRTMailOutput",
+     "value": 5
+    },
+    {
+     "name": "tUniservRTMailSearch",
+     "value": 5
+    },
+    {
+     "name": "tUniservRTPost",
+     "value": 5
+    },
+    {
+     "name": "tVerifyEmail",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Databases",
+   "children": [
+    {
+     "name": "tAccessBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tAccessClose",
+     "value": 5
+    },
+    {
+     "name": "tAccessCommit",
+     "value": 5
+    },
+    {
+     "name": "tAccessConnection",
+     "value": 5
+    },
+    {
+     "name": "tAccessInput",
+     "value": 5
+    },
+    {
+     "name": "tAccessOutput",
+     "value": 5
+    },
+    {
+     "name": "tAccessOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tAccessOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tAccessRollback",
+     "value": 5
+    },
+    {
+     "name": "tAccessRow",
+     "value": 5
+    },
+    {
+     "name": "tAmazonAuroraClose",
+     "value": 5
+    },
+    {
+     "name": "tAmazonAuroraCommit",
+     "value": 5
+    },
+    {
+     "name": "tAmazonAuroraConnection",
+     "value": 5
+    },
+    {
+     "name": "tAmazonAuroraInput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonAuroraOutput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonAuroraRollback",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlClose",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlCommit",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlConnection",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlInput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlOutput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlRollback",
+     "value": 5
+    },
+    {
+     "name": "tAmazonMysqlRow",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleClose",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleCommit",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleConnection",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleInput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleOutput",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleRollback",
+     "value": 5
+    },
+    {
+     "name": "tAmazonOracleRow",
+     "value": 5
+    },
+    {
+     "name": "tAmazonRedshiftManage",
+     "value": 5
+    },
+    {
+     "name": "tAS400CDC",
+     "value": 5
+    },
+    {
+     "name": "tAS400Close",
+     "value": 5
+    },
+    {
+     "name": "tAS400Commit",
+     "value": 5
+    },
+    {
+     "name": "tAS400Connection",
+     "value": 5
+    },
+    {
+     "name": "tAS400Input",
+     "value": 5
+    },
+    {
+     "name": "tAS400LastInsertId",
+     "value": 5
+    },
+    {
+     "name": "tAS400Output",
+     "value": 5
+    },
+    {
+     "name": "tAS400Rollback",
+     "value": 5
+    },
+    {
+     "name": "tAS400Row",
+     "value": 5
+    },
+    {
+     "name": "tBigQueryConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tBigQueryInput",
+     "value": 5
+    },
+    {
+     "name": "tBigQueryOutput",
+     "value": 5
+    },
+    {
+     "name": "tCassandraConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tCassandraInput",
+     "value": 5
+    },
+    {
+     "name": "tCassandraLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tCassandraOutput",
+     "value": 5
+    },
+    {
+     "name": "tCosmosDBBulkLoad",
+     "value": 5
+    },
+    {
+     "name": "tCosmosDBConnection",
+     "value": 5
+    },
+    {
+     "name": "tCosmosDBInput",
+     "value": 5
+    },
+    {
+     "name": "tCosmosDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tCosmosDBRow",
+     "value": 5
+    },
+    {
+     "name": "tCreateTable",
+     "value": 5
+    },
+    {
+     "name": "tDB2BulkExec",
+     "value": 5
+    },
+    {
+     "name": "tDB2CDC",
+     "value": 5
+    },
+    {
+     "name": "tDB2Close",
+     "value": 5
+    },
+    {
+     "name": "tDB2Commit",
+     "value": 5
+    },
+    {
+     "name": "tDB2Connection",
+     "value": 5
+    },
+    {
+     "name": "tDB2Input",
+     "value": 5
+    },
+    {
+     "name": "tDB2Output",
+     "value": 5
+    },
+    {
+     "name": "tDB2Rollback",
+     "value": 5
+    },
+    {
+     "name": "tDB2Row",
+     "value": 5
+    },
+    {
+     "name": "tDB2SCD",
+     "value": 5
+    },
+    {
+     "name": "tDB2SCDELT",
+     "value": 5
+    },
+    {
+     "name": "tDB2SP",
+     "value": 5
+    },
+    {
+     "name": "tDBBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tDBCDC",
+     "value": 5
+    },
+    {
+     "name": "tDBCDCOutput",
+     "value": 5
+    },
+    {
+     "name": "tDBClose",
+     "value": 5
+    },
+    {
+     "name": "tDBColumnList",
+     "value": 5
+    },
+    {
+     "name": "tDBCommit",
+     "value": 5
+    },
+    {
+     "name": "tDBConnection",
+     "value": 5
+    },
+    {
+     "name": "tDBInput",
+     "value": 5
+    },
+    {
+     "name": "tDBInvalidRows",
+     "value": 5
+    },
+    {
+     "name": "tDBLastInsertId",
+     "value": 5
+    },
+    {
+     "name": "tDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tDBOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tDBOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tDBRollback",
+     "value": 5
+    },
+    {
+     "name": "tDBRow",
+     "value": 5
+    },
+    {
+     "name": "tDBSCD",
+     "value": 5
+    },
+    {
+     "name": "tDBSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tDBSP",
+     "value": 5
+    },
+    {
+     "name": "tDBSQLRow",
+     "value": 5
+    },
+    {
+     "name": "tDBTableList",
+     "value": 5
+    },
+    {
+     "name": "tDBValidRows",
+     "value": 5
+    },
+    {
+     "name": "tDynamoDBConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tDynamoDBInput",
+     "value": 5
+    },
+    {
+     "name": "tDynamoDBLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tDynamoDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tEXABulkExec",
+     "value": 5
+    },
+    {
+     "name": "tEXAClose",
+     "value": 5
+    },
+    {
+     "name": "tEXACommit",
+     "value": 5
+    },
+    {
+     "name": "tEXAConnection",
+     "value": 5
+    },
+    {
+     "name": "tEXAInput",
+     "value": 5
+    },
+    {
+     "name": "tEXAOutput",
+     "value": 5
+    },
+    {
+     "name": "tEXARollback",
+     "value": 5
+    },
+    {
+     "name": "tEXARow",
+     "value": 5
+    },
+    {
+     "name": "tEXistConnection",
+     "value": 5
+    },
+    {
+     "name": "tEXistDelete",
+     "value": 5
+    },
+    {
+     "name": "tEXistGet",
+     "value": 5
+    },
+    {
+     "name": "tEXistList",
+     "value": 5
+    },
+    {
+     "name": "tEXistPut",
+     "value": 5
+    },
+    {
+     "name": "tEXistXQuery",
+     "value": 5
+    },
+    {
+     "name": "tEXistXUpdate",
+     "value": 5
+    },
+    {
+     "name": "tFirebirdClose",
+     "value": 5
+    },
+    {
+     "name": "tFirebirdCommit",
+     "value": 5
+    },
+    {
+     "name": "tFirebirdConnection",
+     "value": 5
+    },
+    {
+     "name": "tFirebirdInput",
+     "value": 5
+    },
+    {
+     "name": "tFirebirdOutput",
+     "value": 5
+    },
+    {
+     "name": "tFirebirdRollback",
+     "value": 5
+    },
+    {
+     "name": "tFirebirdRow",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumClose",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumCommit",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumConnection",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumGPLoad",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumInput",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumOutput",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumRollback",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumRow",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumSCD",
+     "value": 5
+    },
+    {
+     "name": "tHBaseConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tHBaseInput",
+     "value": 5
+    },
+    {
+     "name": "tHBaseLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tHBaseOutput",
+     "value": 5
+    },
+    {
+     "name": "tHiveClose",
+     "value": 5
+    },
+    {
+     "name": "tHiveConnection",
+     "value": 5
+    },
+    {
+     "name": "tHiveCreateTable",
+     "value": 5
+    },
+    {
+     "name": "tHiveInput",
+     "value": 5
+    },
+    {
+     "name": "tHiveLoad",
+     "value": 5
+    },
+    {
+     "name": "tHiveOutput",
+     "value": 5
+    },
+    {
+     "name": "tHiveRow",
+     "value": 5
+    },
+    {
+     "name": "tHSQLDbInput",
+     "value": 5
+    },
+    {
+     "name": "tHSQLDbOutput",
+     "value": 5
+    },
+    {
+     "name": "tHSQLDbRow",
+     "value": 5
+    },
+    {
+     "name": "tInformixBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tInformixCDC",
+     "value": 5
+    },
+    {
+     "name": "tInformixClose",
+     "value": 5
+    },
+    {
+     "name": "tInformixCommit",
+     "value": 5
+    },
+    {
+     "name": "tInformixConnection",
+     "value": 5
+    },
+    {
+     "name": "tInformixInput",
+     "value": 5
+    },
+    {
+     "name": "tInformixOutput",
+     "value": 5
+    },
+    {
+     "name": "tInformixOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tInformixOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tInformixRollback",
+     "value": 5
+    },
+    {
+     "name": "tInformixRow",
+     "value": 5
+    },
+    {
+     "name": "tInformixSCD",
+     "value": 5
+    },
+    {
+     "name": "tInformixSP",
+     "value": 5
+    },
+    {
+     "name": "tIngresBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tIngresCDC",
+     "value": 5
+    },
+    {
+     "name": "tIngresClose",
+     "value": 5
+    },
+    {
+     "name": "tIngresCommit",
+     "value": 5
+    },
+    {
+     "name": "tIngresConnection",
+     "value": 5
+    },
+    {
+     "name": "tIngresInput",
+     "value": 5
+    },
+    {
+     "name": "tIngresOutput",
+     "value": 5
+    },
+    {
+     "name": "tIngresOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tIngresOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tIngresRollback",
+     "value": 5
+    },
+    {
+     "name": "tIngresRow",
+     "value": 5
+    },
+    {
+     "name": "tIngresSCD",
+     "value": 5
+    },
+    {
+     "name": "tInterbaseClose",
+     "value": 5
+    },
+    {
+     "name": "tInterbaseCommit",
+     "value": 5
+    },
+    {
+     "name": "tInterbaseConnection",
+     "value": 5
+    },
+    {
+     "name": "tInterbaseInput",
+     "value": 5
+    },
+    {
+     "name": "tInterbaseOutput",
+     "value": 5
+    },
+    {
+     "name": "tInterbaseRollback",
+     "value": 5
+    },
+    {
+     "name": "tInterbaseRow",
+     "value": 5
+    },
+    {
+     "name": "tJavaDBInput",
+     "value": 5
+    },
+    {
+     "name": "tJavaDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tJavaDBRow",
+     "value": 5
+    },
+    {
+     "name": "tJDBCClose",
+     "value": 5
+    },
+    {
+     "name": "tJDBCColumnList",
+     "value": 5
+    },
+    {
+     "name": "tJDBCCommit",
+     "value": 5
+    },
+    {
+     "name": "tJDBCConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tJDBCConnection",
+     "value": 5
+    },
+    {
+     "name": "tJDBCInput",
+     "value": 5
+    },
+    {
+     "name": "tJDBCLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tJDBCOutput",
+     "value": 5
+    },
+    {
+     "name": "tJDBCRollback",
+     "value": 5
+    },
+    {
+     "name": "tJDBCRow",
+     "value": 5
+    },
+    {
+     "name": "tJDBCSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tJDBCSP",
+     "value": 5
+    },
+    {
+     "name": "tJDBCTableList",
+     "value": 5
+    },
+    {
+     "name": "tKuduConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tKuduInput",
+     "value": 5
+    },
+    {
+     "name": "tKuduOutput",
+     "value": 5
+    },
+    {
+     "name": "tLDAPAttributesInput",
+     "value": 5
+    },
+    {
+     "name": "tLDAPClose",
+     "value": 5
+    },
+    {
+     "name": "tLDAPConnection",
+     "value": 5
+    },
+    {
+     "name": "tLDAPInput",
+     "value": 5
+    },
+    {
+     "name": "tLDAPOutput",
+     "value": 5
+    },
+    {
+     "name": "tLDAPRenameEntry",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBInput",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tMaxDBInput",
+     "value": 5
+    },
+    {
+     "name": "tMaxDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tMaxDBRow",
+     "value": 5
+    },
+    {
+     "name": "tMemSQLClose",
+     "value": 5
+    },
+    {
+     "name": "tMemSQLConnection",
+     "value": 5
+    },
+    {
+     "name": "tMemSQLInput",
+     "value": 5
+    },
+    {
+     "name": "tMemSQLOutput",
+     "value": 5
+    },
+    {
+     "name": "tMemSQLRow",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBInput",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlCDC",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlClose",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlColumnList",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlCommit",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlConnection",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlInput",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlLastInsertId",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlOutput",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlRollback",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlRow",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlSCD",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlSP",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlTableList",
+     "value": 5
+    },
+    {
+     "name": "tMysqlBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tMysqlCDC",
+     "value": 5
+    },
+    {
+     "name": "tMysqlClose",
+     "value": 5
+    },
+    {
+     "name": "tMysqlColumnList",
+     "value": 5
+    },
+    {
+     "name": "tMysqlCommit",
+     "value": 5
+    },
+    {
+     "name": "tMysqlConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tMysqlConnection",
+     "value": 5
+    },
+    {
+     "name": "tMysqlInput",
+     "value": 5
+    },
+    {
+     "name": "tMySQLInvalidRows",
+     "value": 5
+    },
+    {
+     "name": "tMysqlLastInsertId",
+     "value": 5
+    },
+    {
+     "name": "tMysqlLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tMysqlOutput",
+     "value": 5
+    },
+    {
+     "name": "tMysqlOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tMysqlOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tMysqlRollback",
+     "value": 5
+    },
+    {
+     "name": "tMysqlRow",
+     "value": 5
+    },
+    {
+     "name": "tMysqlSCD",
+     "value": 5
+    },
+    {
+     "name": "tMysqlSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tMysqlSP",
+     "value": 5
+    },
+    {
+     "name": "tMysqlTableList",
+     "value": 5
+    },
+    {
+     "name": "tMySQLValidRows",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaClose",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaCommit",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaConnection",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaInput",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaNzLoad",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaOutput",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaRollback",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaRow",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaSCD",
+     "value": 5
+    },
+    {
+     "name": "tOleDbInput",
+     "value": 5
+    },
+    {
+     "name": "tOleDbOutput",
+     "value": 5
+    },
+    {
+     "name": "tOleDbRow",
+     "value": 5
+    },
+    {
+     "name": "tOracleBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tOracleCDC",
+     "value": 5
+    },
+    {
+     "name": "tOracleCDCOutput",
+     "value": 5
+    },
+    {
+     "name": "tOracleClose",
+     "value": 5
+    },
+    {
+     "name": "tOracleCommit",
+     "value": 5
+    },
+    {
+     "name": "tOracleConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tOracleConnection",
+     "value": 5
+    },
+    {
+     "name": "tOracleInput",
+     "value": 5
+    },
+    {
+     "name": "tOracleInvalidRows",
+     "value": 5
+    },
+    {
+     "name": "tOracleLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tOracleOutput",
+     "value": 5
+    },
+    {
+     "name": "tOracleOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tOracleOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tOracleRollback",
+     "value": 5
+    },
+    {
+     "name": "tOracleRow",
+     "value": 5
+    },
+    {
+     "name": "tOracleSCD",
+     "value": 5
+    },
+    {
+     "name": "tOracleSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tOracleSP",
+     "value": 5
+    },
+    {
+     "name": "tOracleTableList",
+     "value": 5
+    },
+    {
+     "name": "tOracleValidRows",
+     "value": 5
+    },
+    {
+     "name": "tParAccelBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tParAccelClose",
+     "value": 5
+    },
+    {
+     "name": "tParAccelCommit",
+     "value": 5
+    },
+    {
+     "name": "tParAccelConnection",
+     "value": 5
+    },
+    {
+     "name": "tParAccelInput",
+     "value": 5
+    },
+    {
+     "name": "tParAccelOutput",
+     "value": 5
+    },
+    {
+     "name": "tParAccelOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tParAccelOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tParAccelRollback",
+     "value": 5
+    },
+    {
+     "name": "tParAccelRow",
+     "value": 5
+    },
+    {
+     "name": "tParAccelSCD",
+     "value": 5
+    },
+    {
+     "name": "tParseRecordSet",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusClose",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusCommit",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusConnection",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusInput",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusOutput",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusRollback",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusRow",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusSCD",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlCDC",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlClose",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlCommit",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlConnection",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlInput",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlInvalidRows",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlOutput",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlRollback",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlRow",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlSCD",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlValidRows",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftClose",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftCommit",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftConnection",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftInput",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftOutput",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftRollback",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftRow",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftUnload",
+     "value": 5
+    },
+    {
+     "name": "tSAPHanaClose",
+     "value": 5
+    },
+    {
+     "name": "tSAPHanaCommit",
+     "value": 5
+    },
+    {
+     "name": "tSAPHanaConnection",
+     "value": 5
+    },
+    {
+     "name": "tSAPHanaInput",
+     "value": 5
+    },
+    {
+     "name": "tSAPHanaOutput",
+     "value": 5
+    },
+    {
+     "name": "tSAPHanaRollback",
+     "value": 5
+    },
+    {
+     "name": "tSAPHanaRow",
+     "value": 5
+    },
+    {
+     "name": "tSAPHanaUnload",
+     "value": 5
+    },
+    {
+     "name": "tSasInput",
+     "value": 5
+    },
+    {
+     "name": "tSasOutput",
+     "value": 5
+    },
+    {
+     "name": "tSnowflakeConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tSnowflakeInput",
+     "value": 5
+    },
+    {
+     "name": "tSnowflakeOutput",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHClose",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHCommit",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHConnection",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHInput",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHOutput",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHRollback",
+     "value": 5
+    },
+    {
+     "name": "tSQLDWHRow",
+     "value": 5
+    },
+    {
+     "name": "tSQLiteClose",
+     "value": 5
+    },
+    {
+     "name": "tSQLiteCommit",
+     "value": 5
+    },
+    {
+     "name": "tSQLiteConnection",
+     "value": 5
+    },
+    {
+     "name": "tSQLiteInput",
+     "value": 5
+    },
+    {
+     "name": "tSQLiteOutput",
+     "value": 5
+    },
+    {
+     "name": "tSQLiteRollback",
+     "value": 5
+    },
+    {
+     "name": "tSQLiteRow",
+     "value": 5
+    },
+    {
+     "name": "tSybaseBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSybaseCDC",
+     "value": 5
+    },
+    {
+     "name": "tSybaseClose",
+     "value": 5
+    },
+    {
+     "name": "tSybaseCommit",
+     "value": 5
+    },
+    {
+     "name": "tSybaseConnection",
+     "value": 5
+    },
+    {
+     "name": "tSybaseInput",
+     "value": 5
+    },
+    {
+     "name": "tSybaseIQBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSybaseIQOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSybaseOutput",
+     "value": 5
+    },
+    {
+     "name": "tSybaseOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tSybaseOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tSybaseRollback",
+     "value": 5
+    },
+    {
+     "name": "tSybaseRow",
+     "value": 5
+    },
+    {
+     "name": "tSybaseSCD",
+     "value": 5
+    },
+    {
+     "name": "tSybaseSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tSybaseSP",
+     "value": 5
+    },
+    {
+     "name": "tTeradataCDC",
+     "value": 5
+    },
+    {
+     "name": "tTeradataClose",
+     "value": 5
+    },
+    {
+     "name": "tTeradataCommit",
+     "value": 5
+    },
+    {
+     "name": "tTeradataConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tTeradataConnection",
+     "value": 5
+    },
+    {
+     "name": "tTeradataFastExport",
+     "value": 5
+    },
+    {
+     "name": "tTeradataFastLoad",
+     "value": 5
+    },
+    {
+     "name": "tTeradataFastLoadUtility",
+     "value": 5
+    },
+    {
+     "name": "tTeradataInput",
+     "value": 5
+    },
+    {
+     "name": "tTeradataLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tTeradataMultiLoad",
+     "value": 5
+    },
+    {
+     "name": "tTeradataOutput",
+     "value": 5
+    },
+    {
+     "name": "tTeradataRollback",
+     "value": 5
+    },
+    {
+     "name": "tTeradataRow",
+     "value": 5
+    },
+    {
+     "name": "tTeradataSCD",
+     "value": 5
+    },
+    {
+     "name": "tTeradataSCDELT",
+     "value": 5
+    },
+    {
+     "name": "tTeradataTPTExec",
+     "value": 5
+    },
+    {
+     "name": "tTeradataTPTUtility",
+     "value": 5
+    },
+    {
+     "name": "tTeradataTPump",
+     "value": 5
+    },
+    {
+     "name": "tVectorWiseCommit",
+     "value": 5
+    },
+    {
+     "name": "tVectorWiseConnection",
+     "value": 5
+    },
+    {
+     "name": "tVectorWiseInput",
+     "value": 5
+    },
+    {
+     "name": "tVectorWiseOutput",
+     "value": 5
+    },
+    {
+     "name": "tVectorWiseRollback",
+     "value": 5
+    },
+    {
+     "name": "tVectorWiseRow",
+     "value": 5
+    },
+    {
+     "name": "tVerticaBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tVerticaClose",
+     "value": 5
+    },
+    {
+     "name": "tVerticaCommit",
+     "value": 5
+    },
+    {
+     "name": "tVerticaConnection",
+     "value": 5
+    },
+    {
+     "name": "tVerticaInput",
+     "value": 5
+    },
+    {
+     "name": "tVerticaOutput",
+     "value": 5
+    },
+    {
+     "name": "tVerticaOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tVerticaOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tVerticaRollback",
+     "value": 5
+    },
+    {
+     "name": "tVerticaRow",
+     "value": 5
+    },
+    {
+     "name": "tVerticaSCD",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Databases NoSQL",
+   "children": [
+    {
+     "name": "tCassandraBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tCassandraClose",
+     "value": 5
+    },
+    {
+     "name": "tCassandraConnection",
+     "value": 5
+    },
+    {
+     "name": "tCassandraInput",
+     "value": 5
+    },
+    {
+     "name": "tCassandraOutput",
+     "value": 5
+    },
+    {
+     "name": "tCassandraOutputBulk",
+     "value": 5
+    },
+    {
+     "name": "tCassandraOutputBulkExec",
+     "value": 5
+    },
+    {
+     "name": "tCassandraRow",
+     "value": 5
+    },
+    {
+     "name": "tCouchbaseDCPInput",
+     "value": 5
+    },
+    {
+     "name": "tCouchbaseDCPOutput",
+     "value": 5
+    },
+    {
+     "name": "tCouchbaseInput",
+     "value": 5
+    },
+    {
+     "name": "tCouchbaseOutput",
+     "value": 5
+    },
+    {
+     "name": "tCouchDBClose",
+     "value": 5
+    },
+    {
+     "name": "tCouchDBConnection",
+     "value": 5
+    },
+    {
+     "name": "tCouchDBInput",
+     "value": 5
+    },
+    {
+     "name": "tCouchDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tDynamoDBInput",
+     "value": 5
+    },
+    {
+     "name": "tDynamoDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tHBaseClose",
+     "value": 5
+    },
+    {
+     "name": "tHBaseConnection",
+     "value": 5
+    },
+    {
+     "name": "tHBaseInput",
+     "value": 5
+    },
+    {
+     "name": "tHBaseOutput",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBClose",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBConnection",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBInput",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tMapROjaiInput",
+     "value": 5
+    },
+    {
+     "name": "tMapROjaiOutput",
+     "value": 5
+    },
+    {
+     "name": "tMarkLogicBulkLoad",
+     "value": 5
+    },
+    {
+     "name": "tMarkLogicClose",
+     "value": 5
+    },
+    {
+     "name": "tMarkLogicConnection",
+     "value": 5
+    },
+    {
+     "name": "tMarkLogicInput",
+     "value": 5
+    },
+    {
+     "name": "tMarkLogicOutput",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBBulkLoad",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBClose",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBConnection",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBGridFSDelete",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBGridFSGet",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBGridFSList",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBGridFSProperties",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBGridFSPut",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBInput",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tMongoDBRow",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jBatchOutput",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jBatchOutputRelationship",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jBatchSchema",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jClose",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jConnection",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jImportTool",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jInput",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jOutput",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jOutputRelationship",
+     "value": 5
+    },
+    {
+     "name": "tNeo4jRow",
+     "value": 5
+    },
+    {
+     "name": "tRiakBucketList",
+     "value": 5
+    },
+    {
+     "name": "tRiakClose",
+     "value": 5
+    },
+    {
+     "name": "tRiakConnection",
+     "value": 5
+    },
+    {
+     "name": "tRiakInput",
+     "value": 5
+    },
+    {
+     "name": "tRiakKeyList",
+     "value": 5
+    },
+    {
+     "name": "tRiakOutput",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "DotNET",
+   "children": [
+    {
+     "name": "tDotNETInstantiate",
+     "value": 5
+    },
+    {
+     "name": "tDotNETRow",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "ElasticSearch",
+   "children": [
+    {
+     "name": "tElasticSearchConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tElasticSearchInput",
+     "value": 5
+    },
+    {
+     "name": "tElasticSearchLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tElasticSearchOutput",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "ELT",
+   "children": [
+    {
+     "name": "tAccessConnection",
+     "value": 5
+    },
+    {
+     "name": "tAS400Connection",
+     "value": 5
+    },
+    {
+     "name": "tCombinedSQLAggregate",
+     "value": 5
+    },
+    {
+     "name": "tCombinedSQLFilter",
+     "value": 5
+    },
+    {
+     "name": "tCombinedSQLInput",
+     "value": 5
+    },
+    {
+     "name": "tCombinedSQLOutput",
+     "value": 5
+    },
+    {
+     "name": "tDB2Connection",
+     "value": 5
+    },
+    {
+     "name": "tELTGreenplumInput",
+     "value": 5
+    },
+    {
+     "name": "tELTGreenplumMap",
+     "value": 5
+    },
+    {
+     "name": "tELTGreenplumOutput",
+     "value": 5
+    },
+    {
+     "name": "tELTHiveInput",
+     "value": 5
+    },
+    {
+     "name": "tELTHiveMap",
+     "value": 5
+    },
+    {
+     "name": "tELTHiveOutput",
+     "value": 5
+    },
+    {
+     "name": "tELTInput",
+     "value": 5
+    },
+    {
+     "name": "tELTMap",
+     "value": 5
+    },
+    {
+     "name": "tELTMSSqlInput",
+     "value": 5
+    },
+    {
+     "name": "tELTMSSqlMap",
+     "value": 5
+    },
+    {
+     "name": "tELTMSSqlOutput",
+     "value": 5
+    },
+    {
+     "name": "tELTMysqlInput",
+     "value": 5
+    },
+    {
+     "name": "tELTMysqlMap",
+     "value": 5
+    },
+    {
+     "name": "tELTMysqlOutput",
+     "value": 5
+    },
+    {
+     "name": "tELTNetezzaInput",
+     "value": 5
+    },
+    {
+     "name": "tELTNetezzaMap",
+     "value": 5
+    },
+    {
+     "name": "tELTNetezzaOutput",
+     "value": 5
+    },
+    {
+     "name": "tELTOracleInput",
+     "value": 5
+    },
+    {
+     "name": "tELTOracleMap",
+     "value": 5
+    },
+    {
+     "name": "tELTOracleOutput",
+     "value": 5
+    },
+    {
+     "name": "tELTOutput",
+     "value": 5
+    },
+    {
+     "name": "tELTPostgresqlInput",
+     "value": 5
+    },
+    {
+     "name": "tELTPostgresqlMap",
+     "value": 5
+    },
+    {
+     "name": "tELTPostgresqlOutput",
+     "value": 5
+    },
+    {
+     "name": "tELTSAPInput",
+     "value": 5
+    },
+    {
+     "name": "tELTSAPMap",
+     "value": 5
+    },
+    {
+     "name": "tELTSybaseInput",
+     "value": 5
+    },
+    {
+     "name": "tELTSybaseMap",
+     "value": 5
+    },
+    {
+     "name": "tELTSybaseOutput",
+     "value": 5
+    },
+    {
+     "name": "tELTTeradataInput",
+     "value": 5
+    },
+    {
+     "name": "tELTTeradataMap",
+     "value": 5
+    },
+    {
+     "name": "tELTTeradataOutput",
+     "value": 5
+    },
+    {
+     "name": "tELTVerticaInput",
+     "value": 5
+    },
+    {
+     "name": "tELTVerticaMap",
+     "value": 5
+    },
+    {
+     "name": "tELTVerticaOutput",
+     "value": 5
+    },
+    {
+     "name": "tEXAConnection",
+     "value": 5
+    },
+    {
+     "name": "tFirebirdConnection",
+     "value": 5
+    },
+    {
+     "name": "tGreenplumConnection",
+     "value": 5
+    },
+    {
+     "name": "tHiveConnection",
+     "value": 5
+    },
+    {
+     "name": "tIngresConnection",
+     "value": 5
+    },
+    {
+     "name": "tInterbaseConnection",
+     "value": 5
+    },
+    {
+     "name": "tJDBCConnection",
+     "value": 5
+    },
+    {
+     "name": "tMSSqlConnection",
+     "value": 5
+    },
+    {
+     "name": "tMysqlConnection",
+     "value": 5
+    },
+    {
+     "name": "tNetezzaConnection",
+     "value": 5
+    },
+    {
+     "name": "tOracleConnection",
+     "value": 5
+    },
+    {
+     "name": "tParAccelConnection",
+     "value": 5
+    },
+    {
+     "name": "tPostgresPlusConnection",
+     "value": 5
+    },
+    {
+     "name": "tPostgresqlConnection",
+     "value": 5
+    },
+    {
+     "name": "tSAPHanaConnection",
+     "value": 5
+    },
+    {
+     "name": "tSQLiteConnection",
+     "value": 5
+    },
+    {
+     "name": "tSQLTemplate",
+     "value": 5
+    },
+    {
+     "name": "tSQLTemplateAggregate",
+     "value": 5
+    },
+    {
+     "name": "tSQLTemplateCommit",
+     "value": 5
+    },
+    {
+     "name": "tSQLTemplateFilterColumns",
+     "value": 5
+    },
+    {
+     "name": "tSQLTemplateFilterRows",
+     "value": 5
+    },
+    {
+     "name": "tSQLTemplateMerge",
+     "value": 5
+    },
+    {
+     "name": "tSQLTemplateRollback",
+     "value": 5
+    },
+    {
+     "name": "tSybaseConnection",
+     "value": 5
+    },
+    {
+     "name": "tTeradataConnection",
+     "value": 5
+    },
+    {
+     "name": "tVectorWiseConnection",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "ESB",
+   "children": [
+    {
+     "name": "tESBConsumer",
+     "value": 5
+    },
+    {
+     "name": "tESBProviderFault",
+     "value": 5
+    },
+    {
+     "name": "tESBProviderRequest",
+     "value": 5
+    },
+    {
+     "name": "tESBProviderResponse",
+     "value": 5
+    },
+    {
+     "name": "tRESTClient",
+     "value": 5
+    },
+    {
+     "name": "tRESTRequest",
+     "value": 5
+    },
+    {
+     "name": "tRESTResponse",
+     "value": 5
+    },
+    {
+     "name": "tRouteFault",
+     "value": 5
+    },
+    {
+     "name": "tRouteInput",
+     "value": 5
+    },
+    {
+     "name": "tRouteOutput",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Exception Handling",
+   "children": [
+    {
+     "name": "cErrorHandler",
+     "value": 5
+    },
+    {
+     "name": "cIntercept",
+     "value": 5
+    },
+    {
+     "name": "cOnException",
+     "value": 5
+    },
+    {
+     "name": "cTry",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "File",
+   "children": [
+    {
+     "name": "tAdvancedFileOutputXML",
+     "value": 5
+    },
+    {
+     "name": "tApacheLogInput",
+     "value": 5
+    },
+    {
+     "name": "tAvroInput",
+     "value": 5
+    },
+    {
+     "name": "tAvroOutput",
+     "value": 5
+    },
+    {
+     "name": "tAvroStreamInput",
+     "value": 5
+    },
+    {
+     "name": "tChangeFileEncoding",
+     "value": 5
+    },
+    {
+     "name": "tCreateTemporaryFile",
+     "value": 5
+    },
+    {
+     "name": "tDBFSConnection",
+     "value": 5
+    },
+    {
+     "name": "tDBFSGet",
+     "value": 5
+    },
+    {
+     "name": "tDBFSPut",
+     "value": 5
+    },
+    {
+     "name": "tFileArchive",
+     "value": 5
+    },
+    {
+     "name": "tFileCompare",
+     "value": 5
+    },
+    {
+     "name": "tFileCopy",
+     "value": 5
+    },
+    {
+     "name": "tFileDelete",
+     "value": 5
+    },
+    {
+     "name": "tFileExist",
+     "value": 5
+    },
+    {
+     "name": "tFileInputARFF",
+     "value": 5
+    },
+    {
+     "name": "tFileInputDelimited",
+     "value": 5
+    },
+    {
+     "name": "tFileInputExcel",
+     "value": 5
+    },
+    {
+     "name": "tFileInputFullRow",
+     "value": 5
+    },
+    {
+     "name": "tFileInputJSON",
+     "value": 5
+    },
+    {
+     "name": "tFileInputLDIF",
+     "value": 5
+    },
+    {
+     "name": "tFileInputMail",
+     "value": 5
+    },
+    {
+     "name": "tFileInputMSDelimited",
+     "value": 5
+    },
+    {
+     "name": "tFileInputMSPositional",
+     "value": 5
+    },
+    {
+     "name": "tFileInputMSXML",
+     "value": 5
+    },
+    {
+     "name": "tFileInputParquet",
+     "value": 5
+    },
+    {
+     "name": "tFileInputPositional",
+     "value": 5
+    },
+    {
+     "name": "tFileInputProperties",
+     "value": 5
+    },
+    {
+     "name": "tFileInputRaw",
+     "value": 5
+    },
+    {
+     "name": "tFileInputRegex",
+     "value": 5
+    },
+    {
+     "name": "tFileInputXML",
+     "value": 5
+    },
+    {
+     "name": "tFileList",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputARFF",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputDelimited",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputExcel",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputJSON",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputLDIF",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputMSDelimited",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputMSPositional",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputMSXML",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputParquet",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputPositional",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputProperties",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputRaw",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputXML",
+     "value": 5
+    },
+    {
+     "name": "tFileProperties",
+     "value": 5
+    },
+    {
+     "name": "tFileRowCount",
+     "value": 5
+    },
+    {
+     "name": "tFileStreamInputDelimited",
+     "value": 5
+    },
+    {
+     "name": "tFileStreamInputFullRow",
+     "value": 5
+    },
+    {
+     "name": "tFileStreamInputJSON",
+     "value": 5
+    },
+    {
+     "name": "tFileStreamInputParquet",
+     "value": 5
+    },
+    {
+     "name": "tFileStreamInputPositional",
+     "value": 5
+    },
+    {
+     "name": "tFileStreamInputRegex",
+     "value": 5
+    },
+    {
+     "name": "tFileStreamInputXML",
+     "value": 5
+    },
+    {
+     "name": "tFileTouch",
+     "value": 5
+    },
+    {
+     "name": "tFileUnarchive",
+     "value": 5
+    },
+    {
+     "name": "tGPGDecrypt",
+     "value": 5
+    },
+    {
+     "name": "tHDFSCompare",
+     "value": 5
+    },
+    {
+     "name": "tHDFSConnection",
+     "value": 5
+    },
+    {
+     "name": "tHDFSCopy",
+     "value": 5
+    },
+    {
+     "name": "tHDFSDelete",
+     "value": 5
+    },
+    {
+     "name": "tHDFSExist",
+     "value": 5
+    },
+    {
+     "name": "tHDFSGet",
+     "value": 5
+    },
+    {
+     "name": "tHDFSInput",
+     "value": 5
+    },
+    {
+     "name": "tHDFSList",
+     "value": 5
+    },
+    {
+     "name": "tHDFSOutput",
+     "value": 5
+    },
+    {
+     "name": "tHDFSProperties",
+     "value": 5
+    },
+    {
+     "name": "tHDFSPut",
+     "value": 5
+    },
+    {
+     "name": "tHDFSRename",
+     "value": 5
+    },
+    {
+     "name": "tHDFSRowCount",
+     "value": 5
+    },
+    {
+     "name": "tNamedPipeClose",
+     "value": 5
+    },
+    {
+     "name": "tNamedPipeOpen",
+     "value": 5
+    },
+    {
+     "name": "tNamedPipeOutput",
+     "value": 5
+    },
+    {
+     "name": "tPivotToColumnsDelimited",
+     "value": 5
+    },
+    {
+     "name": "tSqoopExport",
+     "value": 5
+    },
+    {
+     "name": "tSqoopImport",
+     "value": 5
+    },
+    {
+     "name": "tSqoopImportAllTables",
+     "value": 5
+    },
+    {
+     "name": "tSqoopMerge",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Internet",
+   "children": [
+    {
+     "name": "tFileFetch",
+     "value": 5
+    },
+    {
+     "name": "tFileInputJSON",
+     "value": 5
+    },
+    {
+     "name": "tFTPClose",
+     "value": 5
+    },
+    {
+     "name": "tFTPConnection",
+     "value": 5
+    },
+    {
+     "name": "tFTPDelete",
+     "value": 5
+    },
+    {
+     "name": "tFTPFileExist",
+     "value": 5
+    },
+    {
+     "name": "tFTPFileList",
+     "value": 5
+    },
+    {
+     "name": "tFTPFileProperties",
+     "value": 5
+    },
+    {
+     "name": "tFTPGet",
+     "value": 5
+    },
+    {
+     "name": "tFTPPut",
+     "value": 5
+    },
+    {
+     "name": "tFTPRename",
+     "value": 5
+    },
+    {
+     "name": "tFTPTruncate",
+     "value": 5
+    },
+    {
+     "name": "tHttpRequest",
+     "value": 5
+    },
+    {
+     "name": "tJBossESBInput",
+     "value": 5
+    },
+    {
+     "name": "tJBossESBOutput",
+     "value": 5
+    },
+    {
+     "name": "tJMSInput",
+     "value": 5
+    },
+    {
+     "name": "tJMSOutput",
+     "value": 5
+    },
+    {
+     "name": "tKafkaCommit",
+     "value": 5
+    },
+    {
+     "name": "tKafkaConnection",
+     "value": 5
+    },
+    {
+     "name": "tKafkaCreateTopic",
+     "value": 5
+    },
+    {
+     "name": "tKafkaInput",
+     "value": 5
+    },
+    {
+     "name": "tKafkaOutput",
+     "value": 5
+    },
+    {
+     "name": "tMapRStreamsCommit",
+     "value": 5
+    },
+    {
+     "name": "tMapRStreamsCreateStream",
+     "value": 5
+    },
+    {
+     "name": "tMapRStreamsInput",
+     "value": 5
+    },
+    {
+     "name": "tMapRStreamsOutput",
+     "value": 5
+    },
+    {
+     "name": "tMicrosoftMQInput",
+     "value": 5
+    },
+    {
+     "name": "tMicrosoftMQOutput",
+     "value": 5
+    },
+    {
+     "name": "tMomCommit",
+     "value": 5
+    },
+    {
+     "name": "tMomConnection",
+     "value": 5
+    },
+    {
+     "name": "tMomInput",
+     "value": 5
+    },
+    {
+     "name": "tMomMessageIdList",
+     "value": 5
+    },
+    {
+     "name": "tMomOutput",
+     "value": 5
+    },
+    {
+     "name": "tMomRollback",
+     "value": 5
+    },
+    {
+     "name": "tPetalsInput",
+     "value": 5
+    },
+    {
+     "name": "tPetalsOutput",
+     "value": 5
+    },
+    {
+     "name": "tPOP",
+     "value": 5
+    },
+    {
+     "name": "tREST",
+     "value": 5
+    },
+    {
+     "name": "tRSSInput",
+     "value": 5
+    },
+    {
+     "name": "tRSSOutput",
+     "value": 5
+    },
+    {
+     "name": "tSCPClose",
+     "value": 5
+    },
+    {
+     "name": "tSCPConnection",
+     "value": 5
+    },
+    {
+     "name": "tSCPDelete",
+     "value": 5
+    },
+    {
+     "name": "tSCPFileExists",
+     "value": 5
+    },
+    {
+     "name": "tSCPFileList",
+     "value": 5
+    },
+    {
+     "name": "tSCPGet",
+     "value": 5
+    },
+    {
+     "name": "tSCPPut",
+     "value": 5
+    },
+    {
+     "name": "tSCPRename",
+     "value": 5
+    },
+    {
+     "name": "tSCPTruncate",
+     "value": 5
+    },
+    {
+     "name": "tSendMail",
+     "value": 5
+    },
+    {
+     "name": "tSetKerberosConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tSetKeystore",
+     "value": 5
+    },
+    {
+     "name": "tSetProxy",
+     "value": 5
+    },
+    {
+     "name": "tSOAP",
+     "value": 5
+    },
+    {
+     "name": "tSocketInput",
+     "value": 5
+    },
+    {
+     "name": "tSocketOutput",
+     "value": 5
+    },
+    {
+     "name": "tSocketTextStreamInput",
+     "value": 5
+    },
+    {
+     "name": "tSVNLogInput",
+     "value": 5
+    },
+    {
+     "name": "tWebService",
+     "value": 5
+    },
+    {
+     "name": "tWebServiceInput",
+     "value": 5
+    },
+    {
+     "name": "tXMLRPCInput",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Logs & Errors",
+   "children": [
+    {
+     "name": "tAssert",
+     "value": 5
+    },
+    {
+     "name": "tAssertCatcher",
+     "value": 5
+    },
+    {
+     "name": "tChronometerStart",
+     "value": 5
+    },
+    {
+     "name": "tChronometerStop",
+     "value": 5
+    },
+    {
+     "name": "tDie",
+     "value": 5
+    },
+    {
+     "name": "tFlowMeter",
+     "value": 5
+    },
+    {
+     "name": "tFlowMeterCatcher",
+     "value": 5
+    },
+    {
+     "name": "tLogCatcher",
+     "value": 5
+    },
+    {
+     "name": "tLogRow",
+     "value": 5
+    },
+    {
+     "name": "tStatCatcher",
+     "value": 5
+    },
+    {
+     "name": "tWarn",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Machine Learning",
+   "children": [
+    {
+     "name": "tALSModel",
+     "value": 5
+    },
+    {
+     "name": "tClassify",
+     "value": 5
+    },
+    {
+     "name": "tClassifySVM",
+     "value": 5
+    },
+    {
+     "name": "tDecisionTreeModel",
+     "value": 5
+    },
+    {
+     "name": "tGradientBoostedTreeModel",
+     "value": 5
+    },
+    {
+     "name": "tKMeansModel",
+     "value": 5
+    },
+    {
+     "name": "tKMeansStrModel",
+     "value": 5
+    },
+    {
+     "name": "tLinearRegressionModel",
+     "value": 5
+    },
+    {
+     "name": "tLogisticRegressionModel",
+     "value": 5
+    },
+    {
+     "name": "tModelEncoder",
+     "value": 5
+    },
+    {
+     "name": "tNaiveBayesModel",
+     "value": 5
+    },
+    {
+     "name": "tPredict",
+     "value": 5
+    },
+    {
+     "name": "tPredictCluster",
+     "value": 5
+    },
+    {
+     "name": "tRandomForestModel",
+     "value": 5
+    },
+    {
+     "name": "tRecommend",
+     "value": 5
+    },
+    {
+     "name": "tSVMModel",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "MapReduce",
+   "children": [
+    {
+     "name": "tAvroInput",
+     "value": 5
+    },
+    {
+     "name": "tAvroOutput",
+     "value": 5
+    },
+    {
+     "name": "tFileInputDelimited",
+     "value": 5
+    },
+    {
+     "name": "tFileInputFullRow",
+     "value": 5
+    },
+    {
+     "name": "tFileInputJSON",
+     "value": 5
+    },
+    {
+     "name": "tFileInputParquet",
+     "value": 5
+    },
+    {
+     "name": "tFileInputPositional",
+     "value": 5
+    },
+    {
+     "name": "tFileInputXML",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputDelimited",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputJSON",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputParquet",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputPositional",
+     "value": 5
+    },
+    {
+     "name": "tFileOutputXML",
+     "value": 5
+    },
+    {
+     "name": "tGlobalVarLoad",
+     "value": 5
+    },
+    {
+     "name": "tHBaseInput",
+     "value": 5
+    },
+    {
+     "name": "tHBaseOutput",
+     "value": 5
+    },
+    {
+     "name": "tHDFSInput",
+     "value": 5
+    },
+    {
+     "name": "tHDFSOutput",
+     "value": 5
+    },
+    {
+     "name": "tJDBCInput",
+     "value": 5
+    },
+    {
+     "name": "tJDBCOutput",
+     "value": 5
+    },
+    {
+     "name": "tMahoutClustering",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBInput",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBOutput",
+     "value": 5
+    },
+    {
+     "name": "tS3Input",
+     "value": 5
+    },
+    {
+     "name": "tS3Output",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Messaging",
+   "children": [
+    {
+     "name": "tFlumeInput",
+     "value": 5
+    },
+    {
+     "name": "tFlumeOutput",
+     "value": 5
+    },
+    {
+     "name": "tJMSInput",
+     "value": 5
+    },
+    {
+     "name": "tJMSOutput",
+     "value": 5
+    },
+    {
+     "name": "tKafkaInput",
+     "value": 5
+    },
+    {
+     "name": "tKafkaInputAvro",
+     "value": 5
+    },
+    {
+     "name": "tKafkaOutput",
+     "value": 5
+    },
+    {
+     "name": "tKinesisInput",
+     "value": 5
+    },
+    {
+     "name": "tKinesisInputAvro",
+     "value": 5
+    },
+    {
+     "name": "tKinesisOutput",
+     "value": 5
+    },
+    {
+     "name": "tMapRStreamsInput",
+     "value": 5
+    },
+    {
+     "name": "tMapRStreamsInputAvro",
+     "value": 5
+    },
+    {
+     "name": "tMapRStreamsOutput",
+     "value": 5
+    },
+    {
+     "name": "tMQTTInput",
+     "value": 5
+    },
+    {
+     "name": "tMQTTOutput",
+     "value": 5
+    },
+    {
+     "name": "tPubSubInput",
+     "value": 5
+    },
+    {
+     "name": "tPubSubInputAvro",
+     "value": 5
+    },
+    {
+     "name": "tPubSubOutput",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Misc",
+   "children": [
+    {
+     "name": "tAddLocationFromIP",
+     "value": 5
+    },
+    {
+     "name": "tBufferInput",
+     "value": 5
+    },
+    {
+     "name": "tBufferOutput",
+     "value": 5
+    },
+    {
+     "name": "tContextDump",
+     "value": 5
+    },
+    {
+     "name": "tContextLoad",
+     "value": 5
+    },
+    {
+     "name": "tFixedFlowInput",
+     "value": 5
+    },
+    {
+     "name": "tLogRow",
+     "value": 5
+    },
+    {
+     "name": "tMemorizeRows",
+     "value": 5
+    },
+    {
+     "name": "tMsgBox",
+     "value": 5
+    },
+    {
+     "name": "tRowGenerator",
+     "value": 5
+    },
+    {
+     "name": "tServerAlive",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Miscellaneous",
+   "children": [
+    {
+     "name": "cLog",
+     "value": 5
+    },
+    {
+     "name": "cStop",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Natural Language Processing",
+   "children": [
+    {
+     "name": "tCompareColumns",
+     "value": 5
+    },
+    {
+     "name": "tNLPModel",
+     "value": 5
+    },
+    {
+     "name": "tNLPPredict",
+     "value": 5
+    },
+    {
+     "name": "tNLPPreprocessing",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Orchestration",
+   "children": [
+    {
+     "name": "cDelayer",
+     "value": 5
+    },
+    {
+     "name": "cLoop",
+     "value": 5
+    },
+    {
+     "name": "cTimer",
+     "value": 5
+    },
+    {
+     "name": "tCollector",
+     "value": 5
+    },
+    {
+     "name": "tDepartitioner",
+     "value": 5
+    },
+    {
+     "name": "tFileList",
+     "value": 5
+    },
+    {
+     "name": "tFlowToIterate",
+     "value": 5
+    },
+    {
+     "name": "tForeach",
+     "value": 5
+    },
+    {
+     "name": "tInfiniteLoop",
+     "value": 5
+    },
+    {
+     "name": "tIterateToFlow",
+     "value": 5
+    },
+    {
+     "name": "tLoop",
+     "value": 5
+    },
+    {
+     "name": "tParallelize",
+     "value": 5
+    },
+    {
+     "name": "tPartitioner",
+     "value": 5
+    },
+    {
+     "name": "tPostjob",
+     "value": 5
+    },
+    {
+     "name": "tPrejob",
+     "value": 5
+    },
+    {
+     "name": "tRecollector",
+     "value": 5
+    },
+    {
+     "name": "tReplicate",
+     "value": 5
+    },
+    {
+     "name": "tRunJob",
+     "value": 5
+    },
+    {
+     "name": "tSleep",
+     "value": 5
+    },
+    {
+     "name": "tUnite",
+     "value": 5
+    },
+    {
+     "name": "tWaitForFile",
+     "value": 5
+    },
+    {
+     "name": "tWaitForSocket",
+     "value": 5
+    },
+    {
+     "name": "tWaitForSqlData",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Processing",
+   "children": [
+    {
+     "name": "tAggregateRow",
+     "value": 5
+    },
+    {
+     "name": "tAggregateSortedRow",
+     "value": 5
+    },
+    {
+     "name": "tBRMS",
+     "value": 5
+    },
+    {
+     "name": "tCacheIn",
+     "value": 5
+    },
+    {
+     "name": "tCacheOut",
+     "value": 5
+    },
+    {
+     "name": "tConvertType",
+     "value": 5
+    },
+    {
+     "name": "tDenormalize",
+     "value": 5
+    },
+    {
+     "name": "tDenormalizeSortedRow",
+     "value": 5
+    },
+    {
+     "name": "tExternalSortRow",
+     "value": 5
+    },
+    {
+     "name": "tExtractDelimitedFields",
+     "value": 5
+    },
+    {
+     "name": "tExtractDynamicFields",
+     "value": 5
+    },
+    {
+     "name": "tExtractEDIField",
+     "value": 5
+    },
+    {
+     "name": "tExtractJSONFields",
+     "value": 5
+    },
+    {
+     "name": "tExtractPositionalFields",
+     "value": 5
+    },
+    {
+     "name": "tExtractRegexFields",
+     "value": 5
+    },
+    {
+     "name": "tExtractXMLField",
+     "value": 5
+    },
+    {
+     "name": "tFilterColumns",
+     "value": 5
+    },
+    {
+     "name": "tFilterRow",
+     "value": 5
+    },
+    {
+     "name": "tHConvertFile",
+     "value": 5
+    },
+    {
+     "name": "tHMap",
+     "value": 5
+    },
+    {
+     "name": "tHMapFile",
+     "value": 5
+    },
+    {
+     "name": "tHMapInput",
+     "value": 5
+    },
+    {
+     "name": "tHMapRecord",
+     "value": 5
+    },
+    {
+     "name": "tJoin",
+     "value": 5
+    },
+    {
+     "name": "tMap",
+     "value": 5
+    },
+    {
+     "name": "tNormalize",
+     "value": 5
+    },
+    {
+     "name": "tPartition",
+     "value": 5
+    },
+    {
+     "name": "tPigAggregate",
+     "value": 5
+    },
+    {
+     "name": "tPigCode",
+     "value": 5
+    },
+    {
+     "name": "tPigCoGroup",
+     "value": 5
+    },
+    {
+     "name": "tPigCross",
+     "value": 5
+    },
+    {
+     "name": "tPigDistinct",
+     "value": 5
+    },
+    {
+     "name": "tPigFilterColumns",
+     "value": 5
+    },
+    {
+     "name": "tPigFilterRow",
+     "value": 5
+    },
+    {
+     "name": "tPigJoin",
+     "value": 5
+    },
+    {
+     "name": "tPigLoad",
+     "value": 5
+    },
+    {
+     "name": "tPigMap",
+     "value": 5
+    },
+    {
+     "name": "tPigReplicate",
+     "value": 5
+    },
+    {
+     "name": "tPigSort",
+     "value": 5
+    },
+    {
+     "name": "tPigStoreResult",
+     "value": 5
+    },
+    {
+     "name": "tReplace",
+     "value": 5
+    },
+    {
+     "name": "tReplicate",
+     "value": 5
+    },
+    {
+     "name": "tRules",
+     "value": 5
+    },
+    {
+     "name": "tSample",
+     "value": 5
+    },
+    {
+     "name": "tSampleRow",
+     "value": 5
+    },
+    {
+     "name": "tSortRow",
+     "value": 5
+    },
+    {
+     "name": "tSplitRow",
+     "value": 5
+    },
+    {
+     "name": "tSqlRow",
+     "value": 5
+    },
+    {
+     "name": "tSurviveFields",
+     "value": 5
+    },
+    {
+     "name": "tTop",
+     "value": 5
+    },
+    {
+     "name": "tTopBy",
+     "value": 5
+    },
+    {
+     "name": "tUniqRow",
+     "value": 5
+    },
+    {
+     "name": "tWindow",
+     "value": 5
+    },
+    {
+     "name": "tWriteAvroFields",
+     "value": 5
+    },
+    {
+     "name": "tWriteDelimitedFields",
+     "value": 5
+    },
+    {
+     "name": "tWriteDynamicFields",
+     "value": 5
+    },
+    {
+     "name": "tWriteJSONField",
+     "value": 5
+    },
+    {
+     "name": "tWritePositionalFields",
+     "value": 5
+    },
+    {
+     "name": "tWriteXMLFields",
+     "value": 5
+    },
+    {
+     "name": "tXMLMap",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Routing",
+   "children": [
+    {
+     "name": "cAggregate",
+     "value": 5
+    },
+    {
+     "name": "cDynamicRouter",
+     "value": 5
+    },
+    {
+     "name": "cIdempotentConsumer",
+     "value": 5
+    },
+    {
+     "name": "cLoadBalancer",
+     "value": 5
+    },
+    {
+     "name": "cMessageFilter",
+     "value": 5
+    },
+    {
+     "name": "cMessageRouter",
+     "value": 5
+    },
+    {
+     "name": "cMulticast",
+     "value": 5
+    },
+    {
+     "name": "cPipesAndFilters",
+     "value": 5
+    },
+    {
+     "name": "cRecipientList",
+     "value": 5
+    },
+    {
+     "name": "cRoutingSlip",
+     "value": 5
+    },
+    {
+     "name": "cSplitter",
+     "value": 5
+    },
+    {
+     "name": "cThrottler",
+     "value": 5
+    },
+    {
+     "name": "cWireTap",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Storage",
+   "children": [
+    {
+     "name": "tAzureFSConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tBigQueryConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tCassandraConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tDynamoDBConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tGoogleCloudConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tGSConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tHBaseConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tHDFSConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tHiveConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tJDBCConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tKuduConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tMapRDBConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tMysqlConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tOracleConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tRedshiftConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tS3Configuration",
+     "value": 5
+    },
+    {
+     "name": "tTachyonConfiguration",
+     "value": 5
+    },
+    {
+     "name": "tTeradataConfiguration",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Storm",
+   "children": [
+    {
+     "name": "tJDBCOutput",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "System",
+   "children": [
+    {
+     "name": "tRunJob",
+     "value": 5
+    },
+    {
+     "name": "tSetEnv",
+     "value": 5
+    },
+    {
+     "name": "tSSH",
+     "value": 5
+    },
+    {
+     "name": "tSystem",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Talend",
+   "children": [
+    {
+     "name": "cTalendJob",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Talend Cloud",
+   "children": [
+    {
+     "name": "tJobFailure",
+     "value": 5
+    },
+    {
+     "name": "tJobLog",
+     "value": 5
+    },
+    {
+     "name": "tJobReject",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Talend Data Preparation",
+   "children": [
+    {
+     "name": "tDataprepRun",
+     "value": 5
+    },
+    {
+     "name": "tDatasetInput",
+     "value": 5
+    },
+    {
+     "name": "tDatasetOutput",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Talend Data Stewardship",
+   "children": [
+    {
+     "name": "tDataStewardshipTaskDelete",
+     "value": 5
+    },
+    {
+     "name": "tDataStewardshipTaskInput",
+     "value": 5
+    },
+    {
+     "name": "tDataStewardshipTaskOutput",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Talend MDM",
+   "children": [
+    {
+     "name": "tMDMBulkLoad",
+     "value": 5
+    },
+    {
+     "name": "tMDMClose",
+     "value": 5
+    },
+    {
+     "name": "tMDMCommit",
+     "value": 5
+    },
+    {
+     "name": "tMDMConnection",
+     "value": 5
+    },
+    {
+     "name": "tMDMDelete",
+     "value": 5
+    },
+    {
+     "name": "tMDMInput",
+     "value": 5
+    },
+    {
+     "name": "tMDMOutput",
+     "value": 5
+    },
+    {
+     "name": "tMDMReceive",
+     "value": 5
+    },
+    {
+     "name": "tMDMRestInput",
+     "value": 5
+    },
+    {
+     "name": "tMDMRollback",
+     "value": 5
+    },
+    {
+     "name": "tMDMRouteRecord",
+     "value": 5
+    },
+    {
+     "name": "tMDMSP",
+     "value": 5
+    },
+    {
+     "name": "tMDMTriggerInput",
+     "value": 5
+    },
+    {
+     "name": "tMDMTriggerOutput",
+     "value": 5
+    },
+    {
+     "name": "tMDMViewSearch",
+     "value": 5
+    },
+    {
+     "name": "tSurviveFields",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Technical",
+   "children": [
+    {
+     "name": "tBoundedStreamInput",
+     "value": 5
+    },
+    {
+     "name": "tCollectAndCheck",
+     "value": 5
+    },
+    {
+     "name": "tDeltaLakeInput",
+     "value": 5
+    },
+    {
+     "name": "tDeltaLakeOutput",
+     "value": 5
+    },
+    {
+     "name": "tHashInput",
+     "value": 5
+    },
+    {
+     "name": "tHashOutput",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Testing",
+   "children": [
+    {
+     "name": "cDataset",
+     "value": 5
+    },
+    {
+     "name": "cMock",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Transformation",
+   "children": [
+    {
+     "name": "cContentEnricher",
+     "value": 5
+    },
+    {
+     "name": "cConvertBodyTo",
+     "value": 5
+    },
+    {
+     "name": "cFlatPack",
+     "value": 5
+    },
+    {
+     "name": "cMap",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Webservice",
+   "children": [
+    {
+     "name": "tRestWebServiceLookupInput",
+     "value": 5
+    },
+    {
+     "name": "tRestWebServiceOutput",
+     "value": 5
+    }
+   ]
+  }
+ ]
+}

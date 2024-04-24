@@ -1,0 +1,986 @@
+Family, Component Name, Data Integration, Map/Reduce, Spark Batch, Spark Streaming, Storm, Camel
+Authentication, tSetKeystore, No, No, No, No, No, No
+Big Data, tBigQueryBulkExec, Yes, No, No, No, No, No
+Big Data, tBigQueryInput, Yes, No, No, No, No, No
+Big Data, tBigQueryOutput, Yes, No, No, No, No, No
+Big Data, tBigQueryOutputBulk, Yes, No, No, No, No, No
+Big Data, tBigQuerySQLRow, Yes, No, No, No, No, No
+Big Data, tGSBucketCreate, Yes, No, No, No, No, No
+Big Data, tGSBucketDelete, Yes, No, No, No, No, No
+Big Data, tGSBucketExist, Yes, No, No, No, No, No
+Big Data, tGSBucketList, Yes, No, No, No, No, No
+Big Data, tGSClose, Yes, No, No, No, No, No
+Big Data, tGSConnection, Yes, No, No, No, No, No
+Big Data, tGSCopy, Yes, No, No, No, No, No
+Big Data, tGSDelete, Yes, No, No, No, No, No
+Big Data, tGSGet, Yes, No, No, No, No, No
+Big Data, tGSList, Yes, No, No, No, No, No
+Big Data, tGSPut, Yes, No, No, No, No, No
+Big Data, tHiveClose, Yes, No, No, No, No, No
+Big Data, tHiveConnection, Yes, No, No, No, No, No
+Big Data, tHiveRow, Yes, No, No, No, No, No
+Business, tBonitaDeploy, Yes, No, No, No, No, No
+Business, tBonitaInstantiateProcess, Yes, No, No, No, No, No
+Business, tCentricCRMInput, Yes, No, No, No, No, No
+Business, tCentricCRMOutput, Yes, No, No, No, No, No
+Business, tJIRAInput, Yes, No, No, No, No, No
+Business, tJIRAOutput, Yes, No, No, No, No, No
+Business, tMarketoBulkExec, Yes, No, No, No, No, No
+Business, tMarketoCampaign, Yes, No, No, No, No, No
+Business, tMarketoConnection, Yes, No, No, No, No, No
+Business, tMarketoInput, Yes, No, No, No, No, No
+Business, tMarketoListOperation, Yes, No, No, No, No, No
+Business, tMarketoOutput, Yes, No, No, No, No, No
+Business, tMicrosoftCrmInput, Yes, No, No, No, No, No
+Business, tMicrosoftCrmOutput, Yes, No, No, No, No, No
+Business, tMSAXInput, Yes, No, No, No, No, No
+Business, tMSAXOutput, Yes, No, No, No, No, No
+Business, tNetsuiteConnection, Yes, No, No, No, No, No
+Business, tNetsuiteInput, Yes, No, No, No, No, No
+Business, tNetsuiteOutput, Yes, No, No, No, No, No
+Business, tOpenbravoERPInput, Yes, No, No, No, No, No
+Business, tOpenbravoERPOutput, Yes, No, No, No, No, No
+Business, tSageX3Input, Yes, No, No, No, No, No
+Business, tSageX3Output, Yes, No, No, No, No, No
+Business, tSalesforceBulkExec, Yes, No, No, No, No, No
+Business, tSalesforceConnection, Yes, No, No, No, No, No
+Business, tSalesforceEinsteinBulkExec, Yes, No, No, No, No, No
+Business, tSalesforceEinsteinOutputBulkExec, Yes, No, No, No, No, No
+Business, tSalesforceGetDeleted, Yes, No, No, No, No, No
+Business, tSalesforceGetServerTimestamp, Yes, No, No, No, No, No
+Business, tSalesforceGetUpdated, Yes, No, No, No, No, No
+Business, tSalesforceInput, Yes, No, No, No, No, No
+Business, tSalesforceOutput, Yes, No, No, No, No, No
+Business, tSalesforceOutputBulk, Yes, No, No, No, No, No
+Business, tSalesforceOutputBulkExec, Yes, No, No, No, No, No
+Business, tSAPADSOInput, Yes, No, No, No, No, No
+Business, tSAPBapi, Yes, No, No, No, No, No
+Business, tSAPBWInput, Yes, No, No, No, No, No
+Business, tSAPCommit, Yes, No, No, No, No, No
+Business, tSAPConnection, Yes, No, No, No, No, No
+Business, tSAPDataSourceOutput, Yes, No, No, No, No, No
+Business, tSAPDataSourceReceiver, Yes, No, No, No, No, No
+Business, tSAPDSOInput, Yes, No, No, No, No, No
+Business, tSAPDSOOutput, Yes, No, No, No, No, No
+Business, tSAPIDocInput, Yes, No, No, No, No, No
+Business, tSAPIDocOutput, Yes, No, No, No, No, No
+Business, tSAPIDocReceiver, Yes, No, No, No, No, No
+Business, tSAPInfoCubeInput, Yes, No, No, No, No, No
+Business, tSAPInfoObjectInput, Yes, No, No, No, No, No
+Business, tSAPInfoObjectOutput, Yes, No, No, No, No, No
+Business, tSAPODPInput, Yes, No, No, No, No, No
+Business, tSAPRollback, Yes, No, No, No, No, No
+Business, tSAPTableInput, Yes, No, No, No, No, No
+Business, tServiceNowConnection, Yes, No, No, No, No, No
+Business, tServiceNowInput, Yes, No, No, No, No, No
+Business, tServiceNowOutput, Yes, No, No, No, No, No
+Business, tSugarCRMInput, Yes, No, No, No, No, No
+Business, tSugarCRMOutput, Yes, No, No, No, No, No
+Business, tVtigerCRMInput, Yes, No, No, No, No, No
+Business, tVtigerCRMOutput, Yes, No, No, No, No, No
+Business Intelligence, tBarChart, Yes, No, No, No, No, No
+Business Intelligence, tDB2SCD, Yes, No, No, No, No, No
+Business Intelligence, tDB2SCDELT, Yes, No, No, No, No, No
+Business Intelligence, tGreenplumSCD, Yes, No, No, No, No, No
+Business Intelligence, tInformixSCD, Yes, No, No, No, No, No
+Business Intelligence, tIngresSCD, Yes, No, No, No, No, No
+Business Intelligence, tJasperOutput, Yes, No, No, No, No, No
+Business Intelligence, tJasperOutputExec, Yes, No, No, No, No, No
+Business Intelligence, tJDBCSCDELT, Yes, No, No, No, No, No
+Business Intelligence, tLineChart, Yes, No, No, No, No, No
+Business Intelligence, tMondrianInput, Yes, No, No, No, No, No
+Business Intelligence, tMSSqlSCD, Yes, No, No, No, No, No
+Business Intelligence, tMysqlSCD, Yes, No, No, No, No, No
+Business Intelligence, tMysqlSCDELT, Yes, No, No, No, No, No
+Business Intelligence, tNetezzaSCD, Yes, No, No, No, No, No
+Business Intelligence, tOracleSCD, Yes, No, No, No, No, No
+Business Intelligence, tOracleSCDELT, Yes, No, No, No, No, No
+Business Intelligence, tPaloCheckElements, Yes, No, No, No, No, No
+Business Intelligence, tPaloClose, Yes, No, No, No, No, No
+Business Intelligence, tPaloConnection, Yes, No, No, No, No, No
+Business Intelligence, tPaloCube, Yes, No, No, No, No, No
+Business Intelligence, tPaloCubeList, Yes, No, No, No, No, No
+Business Intelligence, tPaloDatabase, Yes, No, No, No, No, No
+Business Intelligence, tPaloDatabaseList, Yes, No, No, No, No, No
+Business Intelligence, tPaloDimension, Yes, No, No, No, No, No
+Business Intelligence, tPaloDimensionList, Yes, No, No, No, No, No
+Business Intelligence, tPaloInputMulti, Yes, No, No, No, No, No
+Business Intelligence, tPaloOutput, Yes, No, No, No, No, No
+Business Intelligence, tPaloOutputMulti, Yes, No, No, No, No, No
+Business Intelligence, tPaloRule, Yes, No, No, No, No, No
+Business Intelligence, tPaloRuleList, Yes, No, No, No, No, No
+Business Intelligence, tParAccelSCD, Yes, No, No, No, No, No
+Business Intelligence, tPostgresPlusSCD, Yes, No, No, No, No, No
+Business Intelligence, tPostgresPlusSCDELT, Yes, No, No, No, No, No
+Business Intelligence, tPostgresqlSCD, Yes, No, No, No, No, No
+Business Intelligence, tPostgresqlSCDELT, Yes, No, No, No, No, No
+Business Intelligence, tSplunkEventCollector, Yes, No, No, No, No, No
+Business Intelligence, tSPSSInput, Yes, No, No, No, No, No
+Business Intelligence, tSPSSOutput, No, No, No, No, No, No
+Business Intelligence, tSPSSProperties, No, No, No, No, No, No
+Business Intelligence, tSPSSStructure, No, No, No, No, No, No
+Business Intelligence, tSybaseSCD, Yes, No, No, No, No, No
+Business Intelligence, tSybaseSCDELT, Yes, No, No, No, No, No
+Business Intelligence, tTeradataSCD, Yes, No, No, No, No, No
+Business Intelligence, tTeradataSCDELT, Yes, No, No, No, No, No
+Business Intelligence, tVerticaSCD, Yes, No, No, No, No, No
+Cloud, tAmazonAuroraClose, Yes, No, No, No, No, No
+Cloud, tAmazonAuroraCommit, Yes, No, No, No, No, No
+Cloud, tAmazonAuroraConnection, Yes, No, No, No, No, No
+Cloud, tAmazonAuroraInput, Yes, No, No, No, No, No
+Cloud, tAmazonAuroraOutput, Yes, No, No, No, No, No
+Cloud, tAmazonAuroraRollback, Yes, No, No, No, No, No
+Cloud, tAmazonEMRListInstances, Yes, No, No, No, No, No
+Cloud, tAmazonEMRManage, Yes, No, No, No, No, No
+Cloud, tAmazonEMRResize, Yes, No, No, No, No, No
+Cloud, tAmazonMysqlClose, Yes, No, No, No, No, No
+Cloud, tAmazonMysqlCommit, Yes, No, No, No, No, No
+Cloud, tAmazonMysqlConnection, Yes, No, No, No, No, No
+Cloud, tAmazonMysqlInput, Yes, No, No, No, No, No
+Cloud, tAmazonMysqlOutput, Yes, No, No, No, No, No
+Cloud, tAmazonMysqlRollback, Yes, No, No, No, No, No
+Cloud, tAmazonMysqlRow, Yes, No, No, No, No, No
+Cloud, tAmazonOracleClose, Yes, No, No, No, No, No
+Cloud, tAmazonOracleCommit, Yes, No, No, No, No, No
+Cloud, tAmazonOracleConnection, Yes, No, No, No, No, No
+Cloud, tAmazonOracleInput, Yes, No, No, No, No, No
+Cloud, tAmazonOracleOutput, Yes, No, No, No, No, No
+Cloud, tAmazonOracleRollback, Yes, No, No, No, No, No
+Cloud, tAmazonOracleRow, Yes, No, No, No, No, No
+Cloud, tAmazonRedshiftManage, Yes, No, No, No, No, No
+Cloud, tAzureStorageConnection, Yes, No, No, No, No, No
+Cloud, tAzureStorageContainerCreate, Yes, No, No, No, No, No
+Cloud, tAzureStorageContainerDelete, Yes, No, No, No, No, No
+Cloud, tAzureStorageContainerExist, Yes, No, No, No, No, No
+Cloud, tAzureStorageContainerList, Yes, No, No, No, No, No
+Cloud, tAzureStorageDelete, Yes, No, No, No, No, No
+Cloud, tAzureStorageGet, Yes, No, No, No, No, No
+Cloud, tAzureStorageList, Yes, No, No, No, No, No
+Cloud, tAzureStoragePut, Yes, No, No, No, No, No
+Cloud, tAzureStorageQueueCreate, Yes, No, No, No, No, No
+Cloud, tAzureStorageQueueDelete, Yes, No, No, No, No, No
+Cloud, tAzureStorageQueueInput, Yes, No, No, No, No, No
+Cloud, tAzureStorageQueueInputLoop, Yes, No, No, No, No, No
+Cloud, tAzureStorageQueueList, Yes, No, No, No, No, No
+Cloud, tAzureStorageQueueOutput, Yes, No, No, No, No, No
+Cloud, tAzureStorageQueuePurge, Yes, No, No, No, No, No
+Cloud, tBoxConnection, Yes, No, No, No, No, No
+Cloud, tBoxCopy, Yes, No, No, No, No, No
+Cloud, tBoxDelete, Yes, No, No, No, No, No
+Cloud, tBoxGet, Yes, No, No, No, No, No
+Cloud, tBoxList, Yes, No, No, No, No, No
+Cloud, tBoxPut, Yes, No, No, No, No, No
+Cloud, tCloudStart, Yes, No, No, No, No, No
+Cloud, tCloudStop, Yes, No, No, No, No, No
+Cloud, tDropboxConnection, Yes, No, No, No, No, No
+Cloud, tDropboxDelete, Yes, No, No, No, No, No
+Cloud, tDropboxGet, Yes, No, No, No, No, No
+Cloud, tDropboxList, Yes, No, No, No, No, No
+Cloud, tDropboxPut, Yes, No, No, No, No, No
+Cloud, tGoogleDriveConnection, Yes, No, No, No, No, No
+Cloud, tGoogleDriveCopy, Yes, No, No, No, No, No
+Cloud, tGoogleDriveCreate, Yes, No, No, No, No, No
+Cloud, tGoogleDriveDelete, Yes, No, No, No, No, No
+Cloud, tGoogleDriveGet, Yes, No, No, No, No, No
+Cloud, tGoogleDriveList, Yes, No, No, No, No, No
+Cloud, tGoogleDrivePut, Yes, No, No, No, No, No
+Cloud, tGSBucketCreate, Yes, No, No, No, No, No
+Cloud, tGSBucketDelete, Yes, No, No, No, No, No
+Cloud, tGSBucketExist, Yes, No, No, No, No, No
+Cloud, tGSBucketList, Yes, No, No, No, No, No
+Cloud, tGSClose, Yes, No, No, No, No, No
+Cloud, tGSConnection, Yes, No, No, No, No, No
+Cloud, tGSCopy, Yes, No, No, No, No, No
+Cloud, tGSDelete, Yes, No, No, No, No, No
+Cloud, tGSGet, Yes, No, No, No, No, No
+Cloud, tGSList, Yes, No, No, No, No, No
+Cloud, tGSPut, Yes, No, No, No, No, No
+Cloud, tMarketoBulkExec, Yes, No, No, No, No, No
+Cloud, tMarketoCampaign, Yes, No, No, No, No, No
+Cloud, tMarketoConnection, Yes, No, No, No, No, No
+Cloud, tMarketoInput, Yes, No, No, No, No, No
+Cloud, tMarketoListOperation, Yes, No, No, No, No, No
+Cloud, tMarketoOutput, Yes, No, No, No, No, No
+Cloud, tNetsuiteInput, Yes, No, No, No, No, No
+Cloud, tNetsuiteOutput, Yes, No, No, No, No, No
+Cloud, tRedshiftBulkExec, Yes, No, No, No, No, No
+Cloud, tRedshiftClose, Yes, No, No, No, No, No
+Cloud, tRedshiftCommit, Yes, No, No, No, No, No
+Cloud, tRedshiftConnection, Yes, No, No, No, No, No
+Cloud, tRedshiftInput, Yes, No, No, No, No, No
+Cloud, tRedshiftOutput, Yes, No, No, No, No, No
+Cloud, tRedshiftOutputBulk, Yes, No, No, No, No, No
+Cloud, tRedshiftOutputBulkExec, Yes, No, No, No, No, No
+Cloud, tRedshiftRollback, Yes, No, No, No, No, No
+Cloud, tRedshiftRow, Yes, No, No, No, No, No
+Cloud, tRedshiftUnload, Yes, No, No, No, No, No
+Cloud, tS3BucketCreate, Yes, No, No, No, No, No
+Cloud, tS3BucketDelete, Yes, No, No, No, No, No
+Cloud, tS3BucketExist, Yes, No, No, No, No, No
+Cloud, tS3BucketList, Yes, No, No, No, No, No
+Cloud, tS3Close, Yes, No, No, No, No, No
+Cloud, tS3Connection, Yes, No, No, No, No, No
+Cloud, tS3Copy, Yes, No, No, No, No, No
+Cloud, tS3Delete, Yes, No, No, No, No, No
+Cloud, tS3Get, Yes, No, No, No, No, No
+Cloud, tS3List, Yes, No, No, No, No, No
+Cloud, tS3Put, Yes, No, No, No, No, No
+Cloud, tSalesforceBulkExec, Yes, No, No, No, No, No
+Cloud, tSalesforceConnection, Yes, No, No, No, No, No
+Cloud, tSalesforceEinsteinBulkExec, Yes, No, No, No, No, No
+Cloud, tSalesforceEinsteinOutputBulkExec, Yes, No, No, No, No, No
+Cloud, tSalesforceGetDeleted, Yes, No, No, No, No, No
+Cloud, tSalesforceGetServerTimestamp, Yes, No, No, No, No, No
+Cloud, tSalesforceGetUpdated, Yes, No, No, No, No, No
+Cloud, tSalesforceInput, Yes, No, No, No, No, No
+Cloud, tSalesforceOutput, Yes, No, No, No, No, No
+Cloud, tSalesforceOutputBulk, Yes, No, No, No, No, No
+Cloud, tSalesforceOutputBulkExec, Yes, No, No, No, No, No
+Cloud, tServiceNowConnection, Yes, No, No, No, No, No
+Cloud, tServiceNowInput, Yes, No, No, No, No, No
+Cloud, tServiceNowOutput, Yes, No, No, No, No, No
+Cloud, tSnowflakeBulkExec, Yes, No, No, No, No, No
+Cloud, tSnowflakeClose, Yes, No, No, No, No, No
+Cloud, tSnowflakeConnection, Yes, No, No, No, No, No
+Cloud, tSnowflakeInput, Yes, No, No, No, No, No
+Cloud, tSnowflakeOutput, Yes, No, No, No, No, No
+Cloud, tSnowflakeOutputBulk, Yes, No, No, No, No, No
+Cloud, tSnowflakeOutputBulkExec, Yes, No, No, No, No, No
+Cloud, tSnowflakeRow, Yes, No, No, No, No, No
+Cloud, tSQLDWHBulkExec, Yes, No, No, No, No, No
+Cloud, tSQLDWHClose, Yes, No, No, No, No, No
+Cloud, tSQLDWHCommit, Yes, No, No, No, No, No
+Cloud, tSQLDWHConnection, Yes, No, No, No, No, No
+Cloud, tSQLDWHInput, Yes, No, No, No, No, No
+Cloud, tSQLDWHOutput, Yes, No, No, No, No, No
+Cloud, tSQLDWHRollback, Yes, No, No, No, No, No
+Cloud, tSQLDWHRow, Yes, No, No, No, No, No
+Cloud, tSQSConnection, Yes, No, No, No, No, No
+Cloud, tSQSInput, Yes, No, No, No, No, No
+Cloud, tSQSMessageChangeVisibility, Yes, No, No, No, No, No
+Cloud, tSQSMessageDelete, Yes, No, No, No, No, No
+Cloud, tSQSOutput, Yes, No, No, No, No, No
+Cloud, tSQSQueueAttributes, Yes, No, No, No, No, No
+Cloud, tSQSQueueCreate, Yes, No, No, No, No, No
+Cloud, tSQSQueueDelete, Yes, No, No, No, No, No
+Cloud, tSQSQueueList, Yes, No, No, No, No, No
+Cloud, tSQSQueuePurge, Yes, No, No, No, No, No
+Cloud, tSugarCRMInput, Yes, No, No, No, No, No
+Cloud, tSugarCRMOutput, Yes, No, No, No, No, No
+Custom Code, tGroovy, Yes, No, No, No, No, No
+Custom Code, tGroovyFile, Yes, No, No, No, No, No
+Custom Code, tJava, Yes, No, No, No, No, No
+Custom Code, tJavaFlex, Yes, No, No, No, No, No
+Custom Code, tJavaRow, Yes, No, No, No, No, No
+Custom Code, tLibraryLoad, Yes, No, No, No, No, No
+Custom Code, tSetDynamicSchema, Yes, No, No, No, No, No
+Custom Code, tSetGlobalVar, Yes, No, No, No, No, No
+Data Quality, tAddCRCRow, Yes, No, No, No, No, No
+Data Quality, tAddressRowCloud, Yes, No, No, No, No, No
+Data Quality, tBatchAddressRowCloud, Yes, No, No, No, No, No
+Data Quality, tBlockedFuzzyJoin, Yes, No, No, No, No, No
+Data Quality, tChangeFileEncoding, Yes, No, No, No, No, No
+Data Quality, tDataDecrypt, Yes, No, No, No, No, No
+Data Quality, tDataEncrypt, Yes, No, No, No, No, No
+Data Quality, tDataMasking, Yes, No, No, No, No, No
+Data Quality, tDataShuffling, Yes, No, No, No, No, No
+Data Quality, tDataUnmasking, Yes, No, No, No, No, No
+Data Quality, tDqReportRun, Yes, No, No, No, No, No
+Data Quality, tDuplicateRow, Yes, No, No, No, No, No
+Data Quality, tExtractRegexFields, Yes, No, No, No, No, No
+Data Quality, tFindRegexlibExpressions, Yes, No, No, No, No, No
+Data Quality, tFirstnameMatch, Yes, No, No, No, No, No
+Data Quality, tFuzzyJoin, Yes, No, No, No, No, No
+Data Quality, tFuzzyMatch, Yes, No, No, No, No, No
+Data Quality, tFuzzyUniqRow, Yes, No, No, No, No, No
+Data Quality, tGenKey, Yes, No, No, No, No, No
+Data Quality, tGoogleAddressRow, Yes, No, No, No, No, No
+Data Quality, tGoogleGeocoder, Yes, No, No, No, No, No
+Data Quality, tGoogleMapLookup, Yes, No, No, No, No, No
+Data Quality, tIntervalMatch, Yes, No, No, No, No, No
+Data Quality, tJapaneseNumberNormalize, No, No, No, No, No, No
+Data Quality, tJapaneseTokenize, Yes, No, No, No, No, No
+Data Quality, tJapaneseTransliterate, Yes, No, No, No, No, No
+Data Quality, tLastRegexlibExpressions, Yes, No, No, No, No, No
+Data Quality, tLoqateAddressRow, Yes, No, No, No, No, No
+Data Quality, tMatchGroup, Yes, No, No, No, No, No
+Data Quality, tMatchIndex, No, No, No, No, No, No
+Data Quality, tMatchIndexPredict, No, No, No, No, No, No
+Data Quality, tMatchModel, No, No, No, No, No, No
+Data Quality, tMatchPairing, No, No, No, No, No, No
+Data Quality, tMatchPredict, No, No, No, No, No, No
+Data Quality, tMelissaDataAddress, Yes, No, No, No, No, No
+Data Quality, tMSSqlInvalidRows, Yes, No, No, No, No, No
+Data Quality, tMSSqlValidRows, Yes, No, No, No, No, No
+Data Quality, tMultiPatternCheck, Yes, No, No, No, No, No
+Data Quality, tMySQLInvalidRows, Yes, No, No, No, No, No
+Data Quality, tMySQLValidRows, Yes, No, No, No, No, No
+Data Quality, tOracleInvalidRows, Yes, No, No, No, No, No
+Data Quality, tOracleValidRows, Yes, No, No, No, No, No
+Data Quality, tPatternCheck, Yes, No, No, No, No, No
+Data Quality, tPatternExtract, Yes, No, No, No, No, No
+Data Quality, tPatternMasking, Yes, No, No, No, No, No
+Data Quality, tPatternUnmasking, Yes, No, No, No, No, No
+Data Quality, tPostgresqlInvalidRows, Yes, No, No, No, No, No
+Data Quality, tPostgresqlValidRows, Yes, No, No, No, No, No
+Data Quality, tQASAddressIncomplete, Yes, No, No, No, No, No
+Data Quality, tQASAddressRow, Yes, No, No, No, No, No
+Data Quality, tQASAddressUnknown, Yes, No, No, No, No, No
+Data Quality, tQASAddressVerified, Yes, No, No, No, No, No
+Data Quality, tQASBatchAddressRow, Yes, No, No, No, No, No
+Data Quality, tRecordMatching, Yes, No, No, No, No, No
+Data Quality, tReplaceList, Yes, No, No, No, No, No
+Data Quality, tReservoirSampling, Yes, No, No, No, No, No
+Data Quality, tRuleSurvivorship, Yes, No, No, No, No, No
+Data Quality, tSchemaComplianceCheck, Yes, No, No, No, No, No
+Data Quality, tStandardizePhoneNumber, Yes, No, No, No, No, No
+Data Quality, tStandardizeRow, Yes, No, No, No, No, No
+Data Quality, tStem, Yes, No, No, No, No, No
+Data Quality, tSurviveFields, Yes, No, No, No, No, No
+Data Quality, tSynonymOutput, Yes, No, No, No, No, No
+Data Quality, tSynonymSearch, Yes, No, No, No, No, No
+Data Quality, tThresholdViolationAlert, Yes, No, No, No, No, No
+Data Quality, tTransliterate, Yes, No, No, No, No, No
+Data Quality, tUniqRow, Yes, No, No, No, No, No
+Data Quality, tUniservBTGeneric, Yes, No, No, No, No, No
+Data Quality, tUniservRTConvertName, Yes, No, No, No, No, No
+Data Quality, tUniservRTMailBulk, Yes, No, No, No, No, No
+Data Quality, tUniservRTMailOutput, Yes, No, No, No, No, No
+Data Quality, tUniservRTMailSearch, Yes, No, No, No, No, No
+Data Quality, tUniservRTPost, Yes, No, No, No, No, No
+Data Quality, tVerifyEmail, Yes, No, No, No, No, No
+Databases, tAccessBulkExec, Yes, No, No, No, No, No
+Databases, tAccessClose, Yes, No, No, No, No, No
+Databases, tAccessCommit, Yes, No, No, No, No, No
+Databases, tAccessConnection, Yes, No, No, No, No, No
+Databases, tAccessInput, Yes, No, No, No, No, No
+Databases, tAccessOutput, Yes, No, No, No, No, No
+Databases, tAccessOutputBulk, Yes, No, No, No, No, No
+Databases, tAccessOutputBulkExec, Yes, No, No, No, No, No
+Databases, tAccessRollback, Yes, No, No, No, No, No
+Databases, tAccessRow, Yes, No, No, No, No, No
+Databases, tAmazonAuroraClose, Yes, No, No, No, No, No
+Databases, tAmazonAuroraCommit, Yes, No, No, No, No, No
+Databases, tAmazonAuroraConnection, Yes, No, No, No, No, No
+Databases, tAmazonAuroraInput, Yes, No, No, No, No, No
+Databases, tAmazonAuroraOutput, Yes, No, No, No, No, No
+Databases, tAmazonAuroraRollback, Yes, No, No, No, No, No
+Databases, tAmazonMysqlClose, Yes, No, No, No, No, No
+Databases, tAmazonMysqlCommit, Yes, No, No, No, No, No
+Databases, tAmazonMysqlConnection, Yes, No, No, No, No, No
+Databases, tAmazonMysqlInput, Yes, No, No, No, No, No
+Databases, tAmazonMysqlOutput, Yes, No, No, No, No, No
+Databases, tAmazonMysqlRollback, Yes, No, No, No, No, No
+Databases, tAmazonMysqlRow, Yes, No, No, No, No, No
+Databases, tAmazonOracleClose, Yes, No, No, No, No, No
+Databases, tAmazonOracleCommit, Yes, No, No, No, No, No
+Databases, tAmazonOracleConnection, Yes, No, No, No, No, No
+Databases, tAmazonOracleInput, Yes, No, No, No, No, No
+Databases, tAmazonOracleOutput, Yes, No, No, No, No, No
+Databases, tAmazonOracleRollback, Yes, No, No, No, No, No
+Databases, tAmazonOracleRow, Yes, No, No, No, No, No
+Databases, tAmazonRedshiftManage, Yes, No, No, No, No, No
+Databases, tAS400CDC, Yes, No, No, No, No, No
+Databases, tAS400Close, Yes, No, No, No, No, No
+Databases, tAS400Commit, Yes, No, No, No, No, No
+Databases, tAS400Connection, Yes, No, No, No, No, No
+Databases, tAS400Input, Yes, No, No, No, No, No
+Databases, tAS400LastInsertId, Yes, No, No, No, No, No
+Databases, tAS400Output, Yes, No, No, No, No, No
+Databases, tAS400Rollback, Yes, No, No, No, No, No
+Databases, tAS400Row, Yes, No, No, No, No, No
+Databases, tBigQueryInput, No, No, No, No, No, No
+Databases, tBigQueryOutput, No, No, No, No, No, No
+Databases, tCreateTable, Yes, No, No, No, No, No
+Databases, tDB2BulkExec, Yes, No, No, No, No, No
+Databases, tDB2CDC, Yes, No, No, No, No, No
+Databases, tDB2Close, Yes, No, No, No, No, No
+Databases, tDB2Commit, Yes, No, No, No, No, No
+Databases, tDB2Connection, Yes, No, No, No, No, No
+Databases, tDB2Input, Yes, No, No, No, No, No
+Databases, tDB2Output, Yes, No, No, No, No, No
+Databases, tDB2Rollback, Yes, No, No, No, No, No
+Databases, tDB2Row, Yes, No, No, No, No, No
+Databases, tDB2SCD, Yes, No, No, No, No, No
+Databases, tDB2SCDELT, Yes, No, No, No, No, No
+Databases, tDB2SP, Yes, No, No, No, No, No
+Databases, tDBBulkExec, Yes, No, No, No, No, No
+Databases, tDBCDC, Yes, No, No, No, No, No
+Databases, tDBCDCOutput, Yes, No, No, No, No, No
+Databases, tDBClose, Yes, No, No, No, No, No
+Databases, tDBColumnList, Yes, No, No, No, No, No
+Databases, tDBCommit, Yes, No, No, No, No, No
+Databases, tDBConnection, Yes, No, No, No, No, No
+Databases, tDBInput, Yes, No, No, No, No, No
+Databases, tDBInvalidRows, Yes, No, No, No, No, No
+Databases, tDBLastInsertId, Yes, No, No, No, No, No
+Databases, tDBOutput, Yes, No, No, No, No, No
+Databases, tDBOutputBulk, Yes, No, No, No, No, No
+Databases, tDBOutputBulkExec, Yes, No, No, No, No, No
+Databases, tDBRollback, Yes, No, No, No, No, No
+Databases, tDBRow, Yes, No, No, No, No, No
+Databases, tDBSCD, Yes, No, No, No, No, No
+Databases, tDBSCDELT, Yes, No, No, No, No, No
+Databases, tDBSP, Yes, No, No, No, No, No
+Databases, tDBSQLRow, Yes, No, No, No, No, No
+Databases, tDBTableList, Yes, No, No, No, No, No
+Databases, tDBValidRows, Yes, No, No, No, No, No
+Databases, tEXABulkExec, Yes, No, No, No, No, No
+Databases, tEXAClose, Yes, No, No, No, No, No
+Databases, tEXACommit, Yes, No, No, No, No, No
+Databases, tEXAConnection, Yes, No, No, No, No, No
+Databases, tEXAInput, Yes, No, No, No, No, No
+Databases, tEXAOutput, Yes, No, No, No, No, No
+Databases, tEXARollback, Yes, No, No, No, No, No
+Databases, tEXARow, Yes, No, No, No, No, No
+Databases, tEXistConnection, Yes, No, No, No, No, No
+Databases, tEXistDelete, Yes, No, No, No, No, No
+Databases, tEXistGet, Yes, No, No, No, No, No
+Databases, tEXistList, Yes, No, No, No, No, No
+Databases, tEXistPut, Yes, No, No, No, No, No
+Databases, tEXistXQuery, Yes, No, No, No, No, No
+Databases, tEXistXUpdate, Yes, No, No, No, No, No
+Databases, tFirebirdClose, Yes, No, No, No, No, No
+Databases, tFirebirdCommit, Yes, No, No, No, No, No
+Databases, tFirebirdConnection, Yes, No, No, No, No, No
+Databases, tFirebirdInput, Yes, No, No, No, No, No
+Databases, tFirebirdOutput, Yes, No, No, No, No, No
+Databases, tFirebirdRollback, Yes, No, No, No, No, No
+Databases, tFirebirdRow, Yes, No, No, No, No, No
+Databases, tGreenplumBulkExec, Yes, No, No, No, No, No
+Databases, tGreenplumClose, Yes, No, No, No, No, No
+Databases, tGreenplumCommit, Yes, No, No, No, No, No
+Databases, tGreenplumConnection, Yes, No, No, No, No, No
+Databases, tGreenplumGPLoad, Yes, No, No, No, No, No
+Databases, tGreenplumInput, Yes, No, No, No, No, No
+Databases, tGreenplumOutput, Yes, No, No, No, No, No
+Databases, tGreenplumOutputBulk, Yes, No, No, No, No, No
+Databases, tGreenplumOutputBulkExec, Yes, No, No, No, No, No
+Databases, tGreenplumRollback, Yes, No, No, No, No, No
+Databases, tGreenplumRow, Yes, No, No, No, No, No
+Databases, tGreenplumSCD, Yes, No, No, No, No, No
+Databases, tHiveClose, Yes, No, No, No, No, No
+Databases, tHiveConnection, Yes, No, No, No, No, No
+Databases, tHiveRow, Yes, No, No, No, No, No
+Databases, tHSQLDbInput, Yes, No, No, No, No, No
+Databases, tHSQLDbOutput, Yes, No, No, No, No, No
+Databases, tHSQLDbRow, Yes, No, No, No, No, No
+Databases, tInformixBulkExec, Yes, No, No, No, No, No
+Databases, tInformixCDC, Yes, No, No, No, No, No
+Databases, tInformixClose, Yes, No, No, No, No, No
+Databases, tInformixCommit, Yes, No, No, No, No, No
+Databases, tInformixConnection, Yes, No, No, No, No, No
+Databases, tInformixInput, Yes, No, No, No, No, No
+Databases, tInformixOutput, Yes, No, No, No, No, No
+Databases, tInformixOutputBulk, Yes, No, No, No, No, No
+Databases, tInformixOutputBulkExec, Yes, No, No, No, No, No
+Databases, tInformixRollback, Yes, No, No, No, No, No
+Databases, tInformixRow, Yes, No, No, No, No, No
+Databases, tInformixSCD, Yes, No, No, No, No, No
+Databases, tInformixSP, Yes, No, No, No, No, No
+Databases, tIngresBulkExec, Yes, No, No, No, No, No
+Databases, tIngresCDC, Yes, No, No, No, No, No
+Databases, tIngresClose, Yes, No, No, No, No, No
+Databases, tIngresCommit, Yes, No, No, No, No, No
+Databases, tIngresConnection, Yes, No, No, No, No, No
+Databases, tIngresInput, Yes, No, No, No, No, No
+Databases, tIngresOutput, Yes, No, No, No, No, No
+Databases, tIngresOutputBulk, Yes, No, No, No, No, No
+Databases, tIngresOutputBulkExec, Yes, No, No, No, No, No
+Databases, tIngresRollback, Yes, No, No, No, No, No
+Databases, tIngresRow, Yes, No, No, No, No, No
+Databases, tIngresSCD, Yes, No, No, No, No, No
+Databases, tInterbaseClose, Yes, No, No, No, No, No
+Databases, tInterbaseCommit, Yes, No, No, No, No, No
+Databases, tInterbaseConnection, Yes, No, No, No, No, No
+Databases, tInterbaseInput, Yes, No, No, No, No, No
+Databases, tInterbaseOutput, Yes, No, No, No, No, No
+Databases, tInterbaseRollback, Yes, No, No, No, No, No
+Databases, tInterbaseRow, Yes, No, No, No, No, No
+Databases, tJavaDBInput, Yes, No, No, No, No, No
+Databases, tJavaDBOutput, Yes, No, No, No, No, No
+Databases, tJavaDBRow, Yes, No, No, No, No, No
+Databases, tJDBCClose, Yes, No, No, No, No, No
+Databases, tJDBCColumnList, Yes, No, No, No, No, No
+Databases, tJDBCCommit, Yes, No, No, No, No, No
+Databases, tJDBCConnection, Yes, No, No, No, No, No
+Databases, tJDBCInput, Yes, No, No, No, No, No
+Databases, tJDBCOutput, Yes, No, No, No, No, No
+Databases, tJDBCRollback, Yes, No, No, No, No, No
+Databases, tJDBCRow, Yes, No, No, No, No, No
+Databases, tJDBCSCDELT, Yes, No, No, No, No, No
+Databases, tJDBCSP, Yes, No, No, No, No, No
+Databases, tJDBCTableList, Yes, No, No, No, No, No
+Databases, tLDAPAttributesInput, Yes, No, No, No, No, No
+Databases, tLDAPClose, Yes, No, No, No, No, No
+Databases, tLDAPConnection, Yes, No, No, No, No, No
+Databases, tLDAPInput, Yes, No, No, No, No, No
+Databases, tLDAPOutput, Yes, No, No, No, No, No
+Databases, tLDAPRenameEntry, Yes, No, No, No, No, No
+Databases, tMaxDBInput, Yes, No, No, No, No, No
+Databases, tMaxDBOutput, Yes, No, No, No, No, No
+Databases, tMaxDBRow, Yes, No, No, No, No, No
+Databases, tMSSqlBulkExec, Yes, No, No, No, No, No
+Databases, tMSSqlCDC, Yes, No, No, No, No, No
+Databases, tMSSqlClose, Yes, No, No, No, No, No
+Databases, tMSSqlColumnList, Yes, No, No, No, No, No
+Databases, tMSSqlCommit, Yes, No, No, No, No, No
+Databases, tMSSqlConnection, Yes, No, No, No, No, No
+Databases, tMSSqlInput, Yes, No, No, No, No, No
+Databases, tMSSqlLastInsertId, Yes, No, No, No, No, No
+Databases, tMSSqlOutput, Yes, No, No, No, No, No
+Databases, tMSSqlOutputBulk, Yes, No, No, No, No, No
+Databases, tMSSqlOutputBulkExec, Yes, No, No, No, No, No
+Databases, tMSSqlRollback, Yes, No, No, No, No, No
+Databases, tMSSqlRow, Yes, No, No, No, No, No
+Databases, tMSSqlSCD, Yes, No, No, No, No, No
+Databases, tMSSqlSP, Yes, No, No, No, No, No
+Databases, tMSSqlTableList, Yes, No, No, No, No, No
+Databases, tMysqlBulkExec, No, No, No, No, No, No
+Databases, tMysqlCDC, Yes, No, No, No, No, No
+Databases, tMysqlClose, Yes, No, No, No, No, No
+Databases, tMysqlColumnList, Yes, No, No, No, No, No
+Databases, tMysqlCommit, Yes, No, No, No, No, No
+Databases, tMysqlConnection, Yes, No, No, No, No, No
+Databases, tMysqlInput, Yes, No, No, No, No, No
+Databases, tMySQLInvalidRows, Yes, No, No, No, No, No
+Databases, tMysqlLastInsertId, Yes, No, No, No, No, No
+Databases, tMysqlOutput, Yes, No, No, No, No, No
+Databases, tMysqlOutputBulk, Yes, No, No, No, No, No
+Databases, tMysqlOutputBulkExec, Yes, No, No, No, No, No
+Databases, tMysqlRollback, Yes, No, No, No, No, No
+Databases, tMysqlRow, Yes, No, No, No, No, No
+Databases, tMysqlSCD, Yes, No, No, No, No, No
+Databases, tMysqlSCDELT, Yes, No, No, No, No, No
+Databases, tMysqlSP, Yes, No, No, No, No, No
+Databases, tMysqlTableList, Yes, No, No, No, No, No
+Databases, tMySQLValidRows, Yes, No, No, No, No, No
+Databases, tNetezzaBulkExec, Yes, No, No, No, No, No
+Databases, tNetezzaClose, Yes, No, No, No, No, No
+Databases, tNetezzaCommit, Yes, No, No, No, No, No
+Databases, tNetezzaConnection, Yes, No, No, No, No, No
+Databases, tNetezzaInput, Yes, No, No, No, No, No
+Databases, tNetezzaNzLoad, Yes, No, No, No, No, No
+Databases, tNetezzaOutput, Yes, No, No, No, No, No
+Databases, tNetezzaRollback, Yes, No, No, No, No, No
+Databases, tNetezzaRow, Yes, No, No, No, No, No
+Databases, tNetezzaSCD, Yes, No, No, No, No, No
+Databases, tOleDbInput, Yes, No, No, No, No, No
+Databases, tOleDbOutput, Yes, No, No, No, No, No
+Databases, tOleDbRow, Yes, No, No, No, No, No
+Databases, tOracleBulkExec, Yes, No, No, No, No, No
+Databases, tOracleCDC, Yes, No, No, No, No, No
+Databases, tOracleCDCOutput, Yes, No, No, No, No, No
+Databases, tOracleClose, Yes, No, No, No, No, No
+Databases, tOracleCommit, Yes, No, No, No, No, No
+Databases, tOracleConnection, Yes, No, No, No, No, No
+Databases, tOracleInput, Yes, No, No, No, No, No
+Databases, tOracleInvalidRows, Yes, No, No, No, No, No
+Databases, tOracleOutput, Yes, No, No, No, No, No
+Databases, tOracleOutputBulk, Yes, No, No, No, No, No
+Databases, tOracleOutputBulkExec, Yes, No, No, No, No, No
+Databases, tOracleRollback, Yes, No, No, No, No, No
+Databases, tOracleRow, Yes, No, No, No, No, No
+Databases, tOracleSCD, Yes, No, No, No, No, No
+Databases, tOracleSCDELT, Yes, No, No, No, No, No
+Databases, tOracleSP, Yes, No, No, No, No, No
+Databases, tOracleTableList, Yes, No, No, No, No, No
+Databases, tOracleValidRows, Yes, No, No, No, No, No
+Databases, tParAccelBulkExec, Yes, No, No, No, No, No
+Databases, tParAccelClose, Yes, No, No, No, No, No
+Databases, tParAccelCommit, Yes, No, No, No, No, No
+Databases, tParAccelConnection, Yes, No, No, No, No, No
+Databases, tParAccelInput, Yes, No, No, No, No, No
+Databases, tParAccelOutput, Yes, No, No, No, No, No
+Databases, tParAccelOutputBulk, Yes, No, No, No, No, No
+Databases, tParAccelOutputBulkExec, Yes, No, No, No, No, No
+Databases, tParAccelRollback, Yes, No, No, No, No, No
+Databases, tParAccelRow, Yes, No, No, No, No, No
+Databases, tParAccelSCD, Yes, No, No, No, No, No
+Databases, tParseRecordSet, Yes, No, No, No, No, No
+Databases, tPostgresPlusBulkExec, Yes, No, No, No, No, No
+Databases, tPostgresPlusClose, Yes, No, No, No, No, No
+Databases, tPostgresPlusCommit, Yes, No, No, No, No, No
+Databases, tPostgresPlusConnection, Yes, No, No, No, No, No
+Databases, tPostgresPlusInput, Yes, No, No, No, No, No
+Databases, tPostgresPlusOutput, Yes, No, No, No, No, No
+Databases, tPostgresPlusOutputBulk, Yes, No, No, No, No, No
+Databases, tPostgresPlusOutputBulkExec, Yes, No, No, No, No, No
+Databases, tPostgresPlusRollback, Yes, No, No, No, No, No
+Databases, tPostgresPlusRow, Yes, No, No, No, No, No
+Databases, tPostgresPlusSCD, Yes, No, No, No, No, No
+Databases, tPostgresPlusSCDELT, Yes, No, No, No, No, No
+Databases, tPostgresqlBulkExec, Yes, No, No, No, No, No
+Databases, tPostgresqlCDC, Yes, No, No, No, No, No
+Databases, tPostgresqlClose, Yes, No, No, No, No, No
+Databases, tPostgresqlCommit, Yes, No, No, No, No, No
+Databases, tPostgresqlConnection, Yes, No, No, No, No, No
+Databases, tPostgresqlInput, Yes, No, No, No, No, No
+Databases, tPostgresqlInvalidRows, Yes, No, No, No, No, No
+Databases, tPostgresqlOutput, Yes, No, No, No, No, No
+Databases, tPostgresqlOutputBulk, Yes, No, No, No, No, No
+Databases, tPostgresqlOutputBulkExec, Yes, No, No, No, No, No
+Databases, tPostgresqlRollback, Yes, No, No, No, No, No
+Databases, tPostgresqlRow, Yes, No, No, No, No, No
+Databases, tPostgresqlSCD, Yes, No, No, No, No, No
+Databases, tPostgresqlSCDELT, Yes, No, No, No, No, No
+Databases, tPostgresqlValidRows, Yes, No, No, No, No, No
+Databases, tRedshiftBulkExec, Yes, No, No, No, No, No
+Databases, tRedshiftClose, Yes, No, No, No, No, No
+Databases, tRedshiftCommit, Yes, No, No, No, No, No
+Databases, tRedshiftConnection, Yes, No, No, No, No, No
+Databases, tRedshiftInput, Yes, No, No, No, No, No
+Databases, tRedshiftOutput, Yes, No, No, No, No, No
+Databases, tRedshiftOutputBulk, Yes, No, No, No, No, No
+Databases, tRedshiftOutputBulkExec, Yes, No, No, No, No, No
+Databases, tRedshiftRollback, Yes, No, No, No, No, No
+Databases, tRedshiftRow, Yes, No, No, No, No, No
+Databases, tRedshiftUnload, Yes, No, No, No, No, No
+Databases, tSasInput, Yes, No, No, No, No, No
+Databases, tSasOutput, Yes, No, No, No, No, No
+Databases, tSnowflakeInput, No, No, No, No, No, No
+Databases, tSnowflakeOutput, No, No, No, No, No, No
+Databases, tSQLDWHBulkExec, Yes, No, No, No, No, No
+Databases, tSQLDWHClose, Yes, No, No, No, No, No
+Databases, tSQLDWHCommit, Yes, No, No, No, No, No
+Databases, tSQLDWHConnection, Yes, No, No, No, No, No
+Databases, tSQLDWHInput, Yes, No, No, No, No, No
+Databases, tSQLDWHOutput, Yes, No, No, No, No, No
+Databases, tSQLDWHRollback, Yes, No, No, No, No, No
+Databases, tSQLDWHRow, Yes, No, No, No, No, No
+Databases, tSQLiteClose, Yes, No, No, No, No, No
+Databases, tSQLiteCommit, Yes, No, No, No, No, No
+Databases, tSQLiteConnection, Yes, No, No, No, No, No
+Databases, tSQLiteInput, Yes, No, No, No, No, No
+Databases, tSQLiteOutput, Yes, No, No, No, No, No
+Databases, tSQLiteRollback, Yes, No, No, No, No, No
+Databases, tSQLiteRow, Yes, No, No, No, No, No
+Databases, tSybaseBulkExec, Yes, No, No, No, No, No
+Databases, tSybaseCDC, Yes, No, No, No, No, No
+Databases, tSybaseClose, Yes, No, No, No, No, No
+Databases, tSybaseCommit, Yes, No, No, No, No, No
+Databases, tSybaseConnection, Yes, No, No, No, No, No
+Databases, tSybaseInput, Yes, No, No, No, No, No
+Databases, tSybaseIQBulkExec, Yes, No, No, No, No, No
+Databases, tSybaseIQOutputBulkExec, Yes, No, No, No, No, No
+Databases, tSybaseOutput, Yes, No, No, No, No, No
+Databases, tSybaseOutputBulk, Yes, No, No, No, No, No
+Databases, tSybaseOutputBulkExec, Yes, No, No, No, No, No
+Databases, tSybaseRollback, Yes, No, No, No, No, No
+Databases, tSybaseRow, Yes, No, No, No, No, No
+Databases, tSybaseSCD, Yes, No, No, No, No, No
+Databases, tSybaseSCDELT, Yes, No, No, No, No, No
+Databases, tSybaseSP, Yes, No, No, No, No, No
+Databases, tTeradataCDC, Yes, No, No, No, No, No
+Databases, tTeradataClose, Yes, No, No, No, No, No
+Databases, tTeradataCommit, Yes, No, No, No, No, No
+Databases, tTeradataConnection, Yes, No, No, No, No, No
+Databases, tTeradataFastExport, Yes, No, No, No, No, No
+Databases, tTeradataFastLoad, Yes, No, No, No, No, No
+Databases, tTeradataFastLoadUtility, Yes, No, No, No, No, No
+Databases, tTeradataInput, Yes, No, No, No, No, No
+Databases, tTeradataMultiLoad, Yes, No, No, No, No, No
+Databases, tTeradataOutput, Yes, No, No, No, No, No
+Databases, tTeradataRollback, Yes, No, No, No, No, No
+Databases, tTeradataRow, Yes, No, No, No, No, No
+Databases, tTeradataSCD, Yes, No, No, No, No, No
+Databases, tTeradataSCDELT, Yes, No, No, No, No, No
+Databases, tTeradataTPTExec, Yes, No, No, No, No, No
+Databases, tTeradataTPTUtility, Yes, No, No, No, No, No
+Databases, tTeradataTPump, Yes, No, No, No, No, No
+Databases, tVectorWiseCommit, Yes, No, No, No, No, No
+Databases, tVectorWiseConnection, Yes, No, No, No, No, No
+Databases, tVectorWiseInput, Yes, No, No, No, No, No
+Databases, tVectorWiseOutput, Yes, No, No, No, No, No
+Databases, tVectorWiseRollback, Yes, No, No, No, No, No
+Databases, tVectorWiseRow, Yes, No, No, No, No, No
+Databases, tVerticaBulkExec, Yes, No, No, No, No, No
+Databases, tVerticaClose, Yes, No, No, No, No, No
+Databases, tVerticaCommit, Yes, No, No, No, No, No
+Databases, tVerticaConnection, Yes, No, No, No, No, No
+Databases, tVerticaInput, Yes, No, No, No, No, No
+Databases, tVerticaOutput, Yes, No, No, No, No, No
+Databases, tVerticaOutputBulk, Yes, No, No, No, No, No
+Databases, tVerticaOutputBulkExec, Yes, No, No, No, No, No
+Databases, tVerticaRollback, Yes, No, No, No, No, No
+Databases, tVerticaRow, Yes, No, No, No, No, No
+Databases, tVerticaSCD, Yes, No, No, No, No, No
+DotNET, tDotNETInstantiate, Yes, No, No, No, No, No
+DotNET, tDotNETRow, Yes, No, No, No, No, No
+ELT, tAccessConnection, Yes, No, No, No, No, No
+ELT, tAS400Connection, Yes, No, No, No, No, No
+ELT, tCombinedSQLAggregate, Yes, No, No, No, No, No
+ELT, tCombinedSQLFilter, Yes, No, No, No, No, No
+ELT, tCombinedSQLInput, Yes, No, No, No, No, No
+ELT, tCombinedSQLOutput, Yes, No, No, No, No, No
+ELT, tDB2Connection, Yes, No, No, No, No, No
+ELT, tELTGreenplumInput, Yes, No, No, No, No, No
+ELT, tELTGreenplumMap, Yes, No, No, No, No, No
+ELT, tELTGreenplumOutput, Yes, No, No, No, No, No
+ELT, tELTInput, Yes, No, No, No, No, No
+ELT, tELTMap, Yes, No, No, No, No, No
+ELT, tELTMSSqlInput, Yes, No, No, No, No, No
+ELT, tELTMSSqlMap, Yes, No, No, No, No, No
+ELT, tELTMSSqlOutput, Yes, No, No, No, No, No
+ELT, tELTMysqlInput, Yes, No, No, No, No, No
+ELT, tELTMysqlMap, Yes, No, No, No, No, No
+ELT, tELTMysqlOutput, Yes, No, No, No, No, No
+ELT, tELTNetezzaInput, Yes, No, No, No, No, No
+ELT, tELTNetezzaMap, Yes, No, No, No, No, No
+ELT, tELTNetezzaOutput, Yes, No, No, No, No, No
+ELT, tELTOracleInput, Yes, No, No, No, No, No
+ELT, tELTOracleMap, Yes, No, No, No, No, No
+ELT, tELTOracleOutput, Yes, No, No, No, No, No
+ELT, tELTOutput, Yes, No, No, No, No, No
+ELT, tELTPostgresqlInput, Yes, No, No, No, No, No
+ELT, tELTPostgresqlMap, Yes, No, No, No, No, No
+ELT, tELTPostgresqlOutput, Yes, No, No, No, No, No
+ELT, tELTSAPInput, Yes, No, No, No, No, No
+ELT, tELTSAPMap, Yes, No, No, No, No, No
+ELT, tELTSybaseInput, Yes, No, No, No, No, No
+ELT, tELTSybaseMap, Yes, No, No, No, No, No
+ELT, tELTSybaseOutput, Yes, No, No, No, No, No
+ELT, tELTTeradataInput, Yes, No, No, No, No, No
+ELT, tELTTeradataMap, Yes, No, No, No, No, No
+ELT, tELTTeradataOutput, Yes, No, No, No, No, No
+ELT, tELTVerticaInput, Yes, No, No, No, No, No
+ELT, tELTVerticaMap, Yes, No, No, No, No, No
+ELT, tELTVerticaOutput, Yes, No, No, No, No, No
+ELT, tEXAConnection, Yes, No, No, No, No, No
+ELT, tFirebirdConnection, Yes, No, No, No, No, No
+ELT, tGreenplumConnection, Yes, No, No, No, No, No
+ELT, tHiveConnection, Yes, No, No, No, No, No
+ELT, tIngresConnection, Yes, No, No, No, No, No
+ELT, tInterbaseConnection, Yes, No, No, No, No, No
+ELT, tJDBCConnection, Yes, No, No, No, No, No
+ELT, tMSSqlConnection, Yes, No, No, No, No, No
+ELT, tMysqlConnection, Yes, No, No, No, No, No
+ELT, tNetezzaConnection, Yes, No, No, No, No, No
+ELT, tOracleConnection, Yes, No, No, No, No, No
+ELT, tParAccelConnection, Yes, No, No, No, No, No
+ELT, tPostgresPlusConnection, Yes, No, No, No, No, No
+ELT, tPostgresqlConnection, Yes, No, No, No, No, No
+ELT, tSQLiteConnection, Yes, No, No, No, No, No
+ELT, tSQLTemplate, Yes, No, No, No, No, No
+ELT, tSQLTemplateAggregate, Yes, No, No, No, No, No
+ELT, tSQLTemplateCommit, Yes, No, No, No, No, No
+ELT, tSQLTemplateFilterColumns, Yes, No, No, No, No, No
+ELT, tSQLTemplateFilterRows, Yes, No, No, No, No, No
+ELT, tSQLTemplateMerge, Yes, No, No, No, No, No
+ELT, tSQLTemplateRollback, Yes, No, No, No, No, No
+ELT, tSybaseConnection, Yes, No, No, No, No, No
+ELT, tTeradataConnection, Yes, No, No, No, No, No
+ELT, tVectorWiseConnection, Yes, No, No, No, No, No
+ESB, tESBConsumer, Yes, No, No, No, No, No
+ESB, tRESTClient, Yes, No, No, No, No, No
+File, tAdvancedFileOutputXML, Yes, No, No, No, No, No
+File, tApacheLogInput, Yes, No, No, No, No, No
+File, tChangeFileEncoding, Yes, No, No, No, No, No
+File, tCreateTemporaryFile, Yes, No, No, No, No, No
+File, tFileArchive, Yes, No, No, No, No, No
+File, tFileCompare, Yes, No, No, No, No, No
+File, tFileCopy, Yes, No, No, No, No, No
+File, tFileDelete, Yes, No, No, No, No, No
+File, tFileExist, Yes, No, No, No, No, No
+File, tFileInputARFF, Yes, No, No, No, No, No
+File, tFileInputDelimited, Yes, No, No, No, No, No
+File, tFileInputExcel, Yes, No, No, No, No, No
+File, tFileInputFullRow, Yes, No, No, No, No, No
+File, tFileInputJSON, Yes, No, No, No, No, No
+File, tFileInputLDIF, Yes, No, No, No, No, No
+File, tFileInputMail, Yes, No, No, No, No, No
+File, tFileInputMSDelimited, Yes, No, No, No, No, No
+File, tFileInputMSPositional, Yes, No, No, No, No, No
+File, tFileInputMSXML, Yes, No, No, No, No, No
+File, tFileInputPositional, Yes, No, No, No, No, No
+File, tFileInputProperties, Yes, No, No, No, No, No
+File, tFileInputRaw, Yes, No, No, No, No, No
+File, tFileInputRegex, Yes, No, No, No, No, No
+File, tFileInputXML, Yes, No, No, No, No, No
+File, tFileList, Yes, No, No, No, No, No
+File, tFileOutputARFF, Yes, No, No, No, No, No
+File, tFileOutputDelimited, Yes, No, No, No, No, No
+File, tFileOutputExcel, Yes, No, No, No, No, No
+File, tFileOutputJSON, Yes, No, No, No, No, No
+File, tFileOutputLDIF, Yes, No, No, No, No, No
+File, tFileOutputMSDelimited, Yes, No, No, No, No, No
+File, tFileOutputMSPositional, Yes, No, No, No, No, No
+File, tFileOutputMSXML, Yes, No, No, No, No, No
+File, tFileOutputPositional, Yes, No, No, No, No, No
+File, tFileOutputProperties, Yes, No, No, No, No, No
+File, tFileOutputRaw, Yes, No, No, No, No, No
+File, tFileOutputXML, Yes, No, No, No, No, No
+File, tFileProperties, Yes, No, No, No, No, No
+File, tFileRowCount, Yes, No, No, No, No, No
+File, tFileTouch, Yes, No, No, No, No, No
+File, tFileUnarchive, Yes, No, No, No, No, No
+File, tGPGDecrypt, Yes, No, No, No, No, No
+File, tNamedPipeClose, Yes, No, No, No, No, No
+File, tNamedPipeOpen, Yes, No, No, No, No, No
+File, tNamedPipeOutput, Yes, No, No, No, No, No
+File, tPivotToColumnsDelimited, Yes, No, No, No, No, No
+Internet, tFileFetch, Yes, No, No, No, No, No
+Internet, tFileInputJSON, Yes, No, No, No, No, No
+Internet, tFTPClose, Yes, No, No, No, No, No
+Internet, tFTPConnection, Yes, No, No, No, No, No
+Internet, tFTPDelete, Yes, No, No, No, No, No
+Internet, tFTPFileExist, Yes, No, No, No, No, No
+Internet, tFTPFileList, Yes, No, No, No, No, No
+Internet, tFTPFileProperties, Yes, No, No, No, No, No
+Internet, tFTPGet, Yes, No, No, No, No, No
+Internet, tFTPPut, Yes, No, No, No, No, No
+Internet, tFTPRename, Yes, No, No, No, No, No
+Internet, tFTPTruncate, Yes, No, No, No, No, No
+Internet, tHttpRequest, Yes, No, No, No, No, No
+Internet, tJBossESBInput, Yes, No, No, No, No, No
+Internet, tJBossESBOutput, Yes, No, No, No, No, No
+Internet, tJMSInput, Yes, No, No, No, No, No
+Internet, tJMSOutput, Yes, No, No, No, No, No
+Internet, tMicrosoftMQInput, Yes, No, No, No, No, No
+Internet, tMicrosoftMQOutput, Yes, No, No, No, No, No
+Internet, tMomCommit, Yes, No, No, No, No, No
+Internet, tMomConnection, Yes, No, No, No, No, No
+Internet, tMomInput, Yes, No, No, No, No, No
+Internet, tMomMessageIdList, Yes, No, No, No, No, No
+Internet, tMomOutput, Yes, No, No, No, No, No
+Internet, tMomRollback, Yes, No, No, No, No, No
+Internet, tPetalsInput, Yes, No, No, No, No, No
+Internet, tPetalsOutput, Yes, No, No, No, No, No
+Internet, tPOP, Yes, No, No, No, No, No
+Internet, tREST, Yes, No, No, No, No, No
+Internet, tRSSInput, Yes, No, No, No, No, No
+Internet, tRSSOutput, Yes, No, No, No, No, No
+Internet, tSCPClose, Yes, No, No, No, No, No
+Internet, tSCPConnection, Yes, No, No, No, No, No
+Internet, tSCPDelete, Yes, No, No, No, No, No
+Internet, tSCPFileExists, Yes, No, No, No, No, No
+Internet, tSCPFileList, Yes, No, No, No, No, No
+Internet, tSCPGet, Yes, No, No, No, No, No
+Internet, tSCPPut, Yes, No, No, No, No, No
+Internet, tSCPRename, Yes, No, No, No, No, No
+Internet, tSCPTruncate, Yes, No, No, No, No, No
+Internet, tSendMail, Yes, No, No, No, No, No
+Internet, tSetKerberosConfiguration, Yes, No, No, No, No, No
+Internet, tSetKeystore, Yes, No, No, No, No, No
+Internet, tSetProxy, Yes, No, No, No, No, No
+Internet, tSOAP, Yes, No, No, No, No, No
+Internet, tSocketInput, Yes, No, No, No, No, No
+Internet, tSocketOutput, Yes, No, No, No, No, No
+Internet, tSVNLogInput, Yes, No, No, No, No, No
+Internet, tWebService, Yes, No, No, No, No, No
+Internet, tWebServiceInput, Yes, No, No, No, No, No
+Internet, tXMLRPCInput, Yes, No, No, No, No, No
+Logs & Errors, tAssert, Yes, No, No, No, No, No
+Logs & Errors, tAssertCatcher, Yes, No, No, No, No, No
+Logs & Errors, tChronometerStart, Yes, No, No, No, No, No
+Logs & Errors, tChronometerStop, Yes, No, No, No, No, No
+Logs & Errors, tDie, Yes, No, No, No, No, No
+Logs & Errors, tFlowMeter, Yes, No, No, No, No, No
+Logs & Errors, tFlowMeterCatcher, Yes, No, No, No, No, No
+Logs & Errors, tLogCatcher, Yes, No, No, No, No, No
+Logs & Errors, tLogRow, Yes, No, No, No, No, No
+Logs & Errors, tStatCatcher, Yes, No, No, No, No, No
+Logs & Errors, tWarn, Yes, No, No, No, No, No
+MapReduce, tFileInputDelimited, No, No, No, No, No, No
+MapReduce, tFileInputFullRow, No, No, No, No, No, No
+MapReduce, tFileInputJSON, No, No, No, No, No, No
+MapReduce, tFileInputPositional, No, No, No, No, No, No
+MapReduce, tFileInputXML, No, No, No, No, No, No
+MapReduce, tFileOutputDelimited, No, No, No, No, No, No
+MapReduce, tFileOutputJSON, No, No, No, No, No, No
+MapReduce, tFileOutputPositional, No, No, No, No, No, No
+MapReduce, tFileOutputXML, No, No, No, No, No, No
+MapReduce, tJDBCInput, No, No, No, No, No, No
+MapReduce, tJDBCOutput, No, No, No, No, No, No
+Messaging, tJMSInput, No, No, No, No, No, No
+Messaging, tJMSOutput, No, No, No, No, No, No
+Misc, tAddLocationFromIP, Yes, No, No, No, No, No
+Misc, tBufferInput, Yes, No, No, No, No, No
+Misc, tBufferOutput, Yes, No, No, No, No, No
+Misc, tContextDump, Yes, No, No, No, No, No
+Misc, tContextLoad, Yes, No, No, No, No, No
+Misc, tFixedFlowInput, Yes, No, No, No, No, No
+Misc, tLogRow, No, No, No, No, No, No
+Misc, tMemorizeRows, Yes, No, No, No, No, No
+Misc, tMsgBox, Yes, No, No, No, No, No
+Misc, tRowGenerator, Yes, No, No, No, No, No
+Misc, tServerAlive, Yes, No, No, No, No, No
+Orchestration, tCollector, Yes, No, No, No, No, No
+Orchestration, tDepartitioner, Yes, No, No, No, No, No
+Orchestration, tFileList, Yes, No, No, No, No, No
+Orchestration, tFlowToIterate, Yes, No, No, No, No, No
+Orchestration, tForeach, Yes, No, No, No, No, No
+Orchestration, tInfiniteLoop, Yes, No, No, No, No, No
+Orchestration, tIterateToFlow, Yes, No, No, No, No, No
+Orchestration, tLoop, Yes, No, No, No, No, No
+Orchestration, tParallelize, Yes, No, No, No, No, No
+Orchestration, tPartitioner, Yes, No, No, No, No, No
+Orchestration, tPostjob, Yes, No, No, No, No, No
+Orchestration, tPrejob, Yes, No, No, No, No, No
+Orchestration, tRecollector, Yes, No, No, No, No, No
+Orchestration, tReplicate, Yes, No, No, No, No, No
+Orchestration, tRunJob, Yes, No, No, No, No, No
+Orchestration, tSleep, Yes, No, No, No, No, No
+Orchestration, tUnite, Yes, No, No, No, No, No
+Orchestration, tWaitForFile, Yes, No, No, No, No, No
+Orchestration, tWaitForSocket, Yes, No, No, No, No, No
+Orchestration, tWaitForSqlData, Yes, No, No, No, No, No
+Processing, tAggregateRow, Yes, No, No, No, No, No
+Processing, tAggregateSortedRow, Yes, No, No, No, No, No
+Processing, tBRMS, Yes, No, No, No, No, No
+Processing, tConvertType, Yes, No, No, No, No, No
+Processing, tDenormalize, Yes, No, No, No, No, No
+Processing, tDenormalizeSortedRow, Yes, No, No, No, No, No
+Processing, tExternalSortRow, Yes, No, No, No, No, No
+Processing, tExtractDelimitedFields, Yes, No, No, No, No, No
+Processing, tExtractDynamicFields, Yes, No, No, No, No, No
+Processing, tExtractEDIField, Yes, No, No, No, No, No
+Processing, tExtractJSONFields, Yes, No, No, No, No, No
+Processing, tExtractPositionalFields, Yes, No, No, No, No, No
+Processing, tExtractRegexFields, Yes, No, No, No, No, No
+Processing, tExtractXMLField, Yes, No, No, No, No, No
+Processing, tFilterColumns, Yes, No, No, No, No, No
+Processing, tFilterRow, Yes, No, No, No, No, No
+Processing, tHMap, Yes, No, No, No, No, No
+Processing, tJoin, Yes, No, No, No, No, No
+Processing, tMap, Yes, No, No, No, No, No
+Processing, tNormalize, Yes, No, No, No, No, No
+Processing, tReplace, Yes, No, No, No, No, No
+Processing, tReplicate, No, No, No, No, No, No
+Processing, tRules, Yes, No, No, No, No, No
+Processing, tSampleRow, Yes, No, No, No, No, No
+Processing, tSortRow, Yes, No, No, No, No, No
+Processing, tSplitRow, Yes, No, No, No, No, No
+Processing, tSurviveFields, Yes, No, No, No, No, No
+Processing, tUniqRow, No, No, No, No, No, No
+Processing, tWriteDynamicFields, Yes, No, No, No, No, No
+Processing, tWriteJSONField, Yes, No, No, No, No, No
+Processing, tXMLMap, Yes, No, No, No, No, No
+Storm, tJDBCOutput, No, No, No, No, No, No
+System, tRunJob, Yes, No, No, No, No, No
+System, tSetEnv, Yes, No, No, No, No, No
+System, tSSH, Yes, No, No, No, No, No
+System, tSystem, Yes, No, No, No, No, No
+Talend Cloud, tJobFailure, Yes, No, No, No, No, No
+Talend Cloud, tJobLog, Yes, No, No, No, No, No
+Talend Cloud, tJobReject, Yes, No, No, No, No, No
+Talend Data Preparation, tDataprepRun, Yes, No, No, No, No, No
+Talend Data Preparation, tDatasetInput, Yes, No, No, No, No, No
+Talend Data Preparation, tDatasetOutput, Yes, No, No, No, No, No
+Talend Data Stewardship, tDataStewardshipTaskDelete, Yes, No, No, No, No, No
+Talend Data Stewardship, tDataStewardshipTaskInput, Yes, No, No, No, No, No
+Talend Data Stewardship, tDataStewardshipTaskOutput, Yes, No, No, No, No, No
+Talend MDM, tSurviveFields, Yes, No, No, No, No, No
+Technical, tHashInput, Yes, No, No, No, No, No
+Technical, tHashOutput, Yes, No, No, No, No, No
+XML, tAdvancedFileOutputXML, Yes, No, No, No, No, No
+XML, tDTDValidator, Yes, No, No, No, No, No
+XML, tEDIFACTtoXML, Yes, No, No, No, No, No
+XML, tExtractXMLField, Yes, No, No, No, No, No
+XML, tFileInputMSXML, Yes, No, No, No, No, No
+XML, tFileInputXML, Yes, No, No, No, No, No
+XML, tFileOutputXML, Yes, No, No, No, No, No
+XML, tWriteXMLField, Yes, No, No, No, No, No
+XML, tXMLMap, Yes, No, No, No, No, No
+XML, tXSDValidator, Yes, No, No, No, No, No
+XML, tXSLT, Yes, No, No, No, No, No
